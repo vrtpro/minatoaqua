@@ -1,6 +1,6 @@
 # ⚓ 湊あくあ | Minato Aqua Fanpage
 
-[![Image Preview](https://cdn.upload.systems/uploads/UbzfmSv5.png)](https://aqua-fanpage.vercel.app/)
+[![Image Preview](https://cdn.upload.systems/uploads/Xa45fluW.png)](https://aqua-fanpage.vercel.app/)
 
 ## Getting Started
 
