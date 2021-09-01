@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  font-family: "Lexend", sans-serif;
+  transition: background 0.1s;
+}
+
+body {
+  color: #1a202c;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+a {
+  color: rgb(0, 100, 200);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(0, 80, 160);
+}
+
+label {
+  display: block;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-padding: 0.4em 0;
+  padding: 0.4em;
+  margin: 0 0 0.5em 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+input:disabled {
+  color: #ccc;
+}
+
+button {
+  color: #333;
+  background-color: #f4f4f4;
+  outline: none;
+}
+
+button:disabled {
+  color: #999;
+}
+
+button:not(:disabled):active {
+  background-color: #ddd;
+}
+
+button:focus {
+  border-color: #666;
+}
+
+.navbar-toggler {
+  outline: none;
+}
+/* Darkmode */
+#darkmode {
+  background: #1a202c;
+  color: #ffffff;
+  transition: background 0.1s;
+}
+#darkmode a {
+  color: #ffffff;
+}
+#darkmode a:hover {
+  color: #c2b9b9;
+}
+#darkmode .dropdown-menu {
+  background: #1a202c;
+  color: #ffffff;
+  font-family: "Lexend", sans-serif;
+}
+#darkmode .navbar-toggler:hover {
+  background: rgb(20, 20, 20);
+}
+#darkmode .dropdown-menu {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+#darkmode .dropdown-menu button {
+  color: #ffffff;
+  font-family: "Lexend", sans-serif;
+}
+#darkmode .dropdown-menu button:hover {
+  background: rgb(20, 20, 20);
+}
+#darkmode footer a {
+  color: rgb(0, 100, 200);
+}
+#darkmode footer a:hover {
+  color: rgb(0, 100, 200);
+}
+/* Navbar */
+.nav {
+  -webkit-backdrop-filter: blur(9px);
+  backdrop-filter: blur(9px);
+  font-family: "Lexend", sans-serif;
+}
+.nav a {
+  text-decoration: none;
+}
+
+/* Scrolling */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px transparent;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #db34eb;
+  border-radius: 10px;
+}

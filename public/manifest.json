@@ -1,0 +1,33 @@
+{
+  "short_name": "湊あくあ Fanpage",
+  "name": "湊あくあ | Minato Aqua Fanpage",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    }
+  ],
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#FFFFFF",
+  "shortcuts": [
+    {
+      "name": "Overview - 湊あくあ Fanpage",
+      "short_name": "Overview",
+      "description": "Overview about Minato Aqua",
+      "url": "/overview",
+      "icons": [{ "src": "/icons/logo_192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Information - 湊あくあ Fanpage",
+      "short_name": "Information",
+      "description": "All Informations about Minato Aqua",
+      "url": "/info",
+      "icons": [{ "src": "/icons/logo_192.png", "sizes": "192x192" }]
+    }
+  ],
+  "description": "Fanpage created with Svelte, sveltestrap, and Page.js"
+}
