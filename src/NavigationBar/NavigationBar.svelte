@@ -16,6 +16,7 @@
       DropdownMenu,
       DropdownItem,
     } from 'sveltestrap';
+    import PageProgress from "svelte-page-progress"
   
     let isOpen = false;
   
@@ -64,3 +65,4 @@
       </Nav>
     </Collapse>
   </Navbar>
+  <PageProgress color="#db34eb" heigh="1vh" />
