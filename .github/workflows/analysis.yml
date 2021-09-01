@@ -1,4 +1,4 @@
-name: "Code Analysis"
+name: "Analysis"
 
 on:
   push:
