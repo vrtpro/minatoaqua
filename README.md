@@ -31,6 +31,7 @@
 - Routing using [Page.js](https://npmjs.com/package/page)
 - Responsive Website
 - Modern Design
+- Progressive Web App (PWA) Support
 
 ## Built with
 
