@@ -772,6 +772,11 @@ svelte-navigator@^3.1.5:
   dependencies:
     svelte2tsx "^0.1.151"
 
+svelte-page-progress@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/svelte-page-progress/-/svelte-page-progress-1.0.1.tgz#909b936d23db5ee5469c62541ffa95cd6b8b80ff"
+  integrity sha512-7gnQ4AuefDLC0JgvBUOqBFa7ltCTBjI8Atx/Mz3kq9P0zEY980ZcY74BFhKHbK9BXmbF0SqfAe6UlMMjYbtCKg==
+
 svelte-preprocess@^4.0.0:
   version "4.8.0"
   resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.8.0.tgz#fd3ebc19aae1b8a49ac9e30db1af572bf4619245"
