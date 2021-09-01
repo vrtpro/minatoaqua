@@ -1,6 +1,6 @@
 # ⚓ 湊あくあ | Minato Aqua Fanpage
 
-![Image Preview](https://cdn.upload.systems/uploads/UbzfmSv5.png)
+[![Image Preview](https://cdn.upload.systems/uploads/UbzfmSv5.png)](https://aqua-fanpage.vercel.app/)
 
 ## Getting Started
 
@@ -18,9 +18,12 @@
   ```
 
 - Run the app in development
+
   ```sh
   $ yarn run dev
   ```
+
+- Finally open http://localhost:5000 to see the result.
 
 ## Features
 
