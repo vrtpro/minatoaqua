@@ -38,6 +38,7 @@
     }
   </script>
   
+  <PageProgress color="#db34eb" heigh="1vh" />
   <Navbar class="nav shadow-sm fixed-top" light expand="md">
     <NavbarBrand href="/"><Column><Row><Col>湊あくあ</Col></Row></Column></NavbarBrand>
     <NavbarToggler on:click={() => (isOpen = !isOpen)} />
@@ -65,4 +66,3 @@
       </Nav>
     </Collapse>
   </Navbar>
-  <PageProgress color="#db34eb" heigh="1vh" />
