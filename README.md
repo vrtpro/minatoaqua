@@ -34,7 +34,7 @@
 
 ## Built with
 
-This app is built with [Svelte TypeScript](https://svelte.dev), [Sveltestrap](https://sveltestrap.js.org), and [Page.js](https://npmjs.com/package/page).
+This app is built with [Svelte TypeScript](https://svelte.dev), [Sveltestrap](https://sveltestrap.js.org), [Page.js](https://npmjs.com/package/page), and [svelte-page-progress](https://www.npmjs.com/package/svelte-page-progress).
 
 ## License
 
