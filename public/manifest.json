@@ -19,14 +19,14 @@
       "short_name": "Overview",
       "description": "Overview about Minato Aqua",
       "url": "/overview",
-      "icons": [{ "src": "/icons/logo_192.png", "sizes": "192x192" }]
+      "icons": [{ "src": "img/icons/overview.png", "sizes": "520x520" }]
     },
     {
       "name": "Information - 湊あくあ Fanpage",
       "short_name": "Information",
       "description": "All Informations about Minato Aqua",
       "url": "/info",
-      "icons": [{ "src": "/icons/logo_192.png", "sizes": "192x192" }]
+      "icons": [{ "src": "img/icons/information.png", "sizes": "520x520" }]
     }
   ],
   "description": "Fanpage created with Svelte, sveltestrap, and Page.js"
