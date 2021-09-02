@@ -32,7 +32,7 @@
             <div id="website-related">
                 <h3 class="horizon"><i class="fas fa-globe"></i> Website Related Links</h3>
                 <p><i class="fab fa-github"></i> GitHub Repository : <a href="https://github.com/gifaldyazkaa/aqua-fanpage">@gifaldyazkaa/aqua-fanpage</a></p>
-                <p>This website is Built with <a href="https://svelte.dev">Svelte</a>, <a href="https://sveltestrap.js.org">sveltestrap</a>, and <a href="https://www.npmjs.com/package/page">Page.js</a></p>
+                <p>This website is Built with <a href="https://svelte.dev">Svelte</a>, <a href="https://sveltestrap.js.org">sveltestrap</a>, <a href="https://www.npmjs.com/package/page">Page.js</a>, and <a href="https://www.npmjs.com/package/svelte-page-progress">svelte-page-progress</a>.</p>
             </div>
         </Col>
     </Row>
