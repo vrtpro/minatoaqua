@@ -50,4 +50,7 @@ We're open to any Contributions! Want to contribute to this project? Follow thes
 
 ## License
 
-This Project is Under [MIT License](https://github.com/gifaldyazkaa/aqua-fanpage/blob/master/LICENSE) &copy; Gifaldy Azka.
+- Character Copyright &copy; 2017-2021 [COVER Corp](https://cover-corp.com).
+- Software Copyright &copy; 2020 Gifaldy Azka / Falcxxdev.
+- [aqua-fanpage](#) is Licensed Under [MIT License](https://github.com/gifaldyazkaa/aqua-fanpage/blob/master/LICENSE).
+- The code is open-source and Free to use, Please have a look at the License and keep in mind about Giving appropriate credit where it is due, Thanks!
