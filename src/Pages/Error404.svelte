@@ -1,6 +1,6 @@
 <script lang="ts">
     import { Container, Row, Col } from "sveltestrap";
-    import NavigationBar from "../NavigationBar/NavigationBar.svelte";
+    import NavigationBar from "../Components/NavigationBar.svelte";
 </script>
 
 <Container>
