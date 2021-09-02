@@ -27,16 +27,27 @@
 
 ## Features
 
-- Dark Mode Support
 - Routing using [Page.js](https://npmjs.com/package/page)
+- Dark Mode Support
+- Progressive Web App (PWA) Support
 - Responsive Website
 - Modern Design
-- Progressive Web App (PWA) Support
 
 ## Built with
 
 This app is built with [Svelte TypeScript](https://svelte.dev), [Sveltestrap](https://sveltestrap.js.org), [Page.js](https://npmjs.com/package/page), and [svelte-page-progress](https://www.npmjs.com/package/svelte-page-progress).
 
+# Contributing
+
+We're open to any Contributions! Want to contribute to this project? Follow these instructions!
+
+- [Fork this repo](https://github.com/gifaldyazkaa/aqua-fanpage/fork)
+- Clone your fork : `git clone https://github.com/your-username/aqua-fanpage.git`
+- Create your feature branch : `git checkout -b my-new-feature`
+- Commit your changes : `git commit -am 'Add some feature'`
+- Push to the branch : `git push origin my-new-feature`
+- Submit a pull request :D
+
 ## License
 
-This project is Under [MIT License](https://github.com/gifaldyazkaa/aqua-fanpage/blob/master/LICENSE) &copy; Gifaldy Azka.
+This Project is Under [MIT License](https://github.com/gifaldyazkaa/aqua-fanpage/blob/master/LICENSE) &copy; Gifaldy Azka.
