@@ -37,7 +37,7 @@
 
 This app is built with [Svelte TypeScript](https://svelte.dev), [Sveltestrap](https://sveltestrap.js.org), [Page.js](https://npmjs.com/package/page), and [svelte-page-progress](https://www.npmjs.com/package/svelte-page-progress).
 
-# Contributing
+## Contributing
 
 We're open to any Contributions! Want to contribute to this project? Follow these instructions!
 
