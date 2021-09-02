@@ -1,0 +1,46 @@
+<script lang="ts">
+    import { Container, Row, Col } from 'sveltestrap';
+    import NavigationBar from '../Components/NavigationBar.svelte';
+    import Footer from '../Components/Footer.svelte';
+    export let name, firstDebut, fanName, inRealBirthdate, generation, height, weight, oshiMark, hobby, likeThings, goals, uniqueSkill;
+</script>
+
+<h1 class="text-center">Information</h1>
+<Container>
+    <Row>
+        <Col>
+            <NavigationBar />
+            <div id="details">
+                <h3>Details</h3>
+                <hr />
+                <p><strong>Japanese Name</strong> : {name.jp}</p>
+                <p><strong>English Name</strong> : {name.en}</p>
+                <p><strong>Debut Date</strong> : {firstDebut} (YouTube)</p>
+                <p><strong>Member of</strong> : {generation}</p>
+                <p><strong>Fan Name</strong> : {fanName.en} ({fanName.jp})</p>
+                <p><strong>Emoji / Oshi Mark</strong> : {oshiMark}</p>
+            </div>
+            <div id="personal">
+                <h3>Personal</h3>
+                <hr />
+                <p><strong>Birthday</strong> : {inRealBirthdate}</p>
+                <p><strong>Height</strong> : {height}</p>
+                <p><strong>Weight</strong> : {weight} (Please don't ask a girl for their weight!)</p>
+                <p><strong>Hobbies</strong> : {hobby[0]} and {hobby[1]}</p>
+                <p><strong>Likes</strong> : {likeThings[0]}, {likeThings[1]}, and {likeThings[2]}</p>
+                <p><strong>Dreams and goals</strong> : {goals}</p>
+                <p><strong>Unique skills</strong> : {uniqueSkill}</p>
+            </div>
+        </Col>
+    </Row>
+</Container>
+<Footer />
+
+<style>
+    div#details,  #personal {
+        padding-top: 2rem;
+    }
+    p, h1, h3 {
+        font-family: 'Lexend', sans-serif;
+    }
+</style>

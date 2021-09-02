@@ -1,7 +1,8 @@
 <script lang="ts">
     import { Container, Row, Col } from 'sveltestrap';
-    import NavigationBar from '../NavigationBar/NavigationBar.svelte';
-    import Footer from '../Footer/Footer.svelte';
+    import NavigationBar from '../Components/NavigationBar.svelte';
+    import Footer from '../Components/Footer.svelte';
+    export let greetingsWord, introductionWords, name;
 </script>
 
 <Container>
@@ -10,10 +11,10 @@
             <Col>
                 <NavigationBar />
                 <div id="greetings">
-                    <h1>KonAqua!</h1>
+                    <h1>{greetingsWord.en}</h1>
                     <hr width="200rem">
-                    <p>"KonAqua! Minato Aqua desu!"</p>
-                    <p>I'm virtual idol cat ears marine maid-styled gamer Minato Aqua~<br>I'm from the 2nd generation of Hololive Idol Production~</p>
+                    <p>"{introductionWords}"</p>
+                    <p>I'm virtual idol cat ears marine maid-styled gamer {name.en}~<br>I'm from the 2nd generation of Hololive Idol Production~</p>
                     <hr width="140rem">
                     <a href="/overview" class="btn learn-more" style="background: #131b2c; color: #ffffff;">Learn More</a>
                 </div>

@@ -1,7 +1,11 @@
 <script lang="ts">
     import { Container, Row, Col } from 'sveltestrap';
-    import NavigationBar from '../NavigationBar/NavigationBar.svelte';
-    import Footer from '../Footer/Footer.svelte';
+    import NavigationBar from '../Components/NavigationBar.svelte';
+    import Footer from '../Components/Footer.svelte';
+    export let firstDebut, likeThings;
+    const likeThings1 = likeThings[0];
+    const likeThings2 = likeThings[1];
+    const likeThings3 = likeThings[2];
 </script>
 
 <h1 class="title text-center">Overview</h1>
@@ -16,9 +20,9 @@
                 <p>"A-quality day to one and all! I'm Minato Aqua!"</p>
                 <p>A marine maid-styled virtual maid. She is trying her very best, yet is still sometimes awkward and clumsy.</p>
                 <p>~<a href="https://hololive.hololivepro.com/en/talents/minato-aqua">Hololive official website</a></p>
-                <p>Started First Debut at August 8, 2018. Now, she reached over 1,34 Million Subscribers at YouTube as Hololive's 2nd Gen VTuber.</p>
+                <p>Started First Debut at {firstDebut}. Now, she reached over 1,34 Million Subscribers at YouTube as Hololive's 2nd Gen VTuber.</p>
                 <p>She has an neko ears, and have an imaginary cat named NEKO! She have a real cat named Komugi! (Usually called むーちゃん (Mu-chan))</p>
-                <p>Likes anime, manga, and omurice. Often to playing games when Streaming at YouTube. Playing Minecraft, Resident Evil Village, and others more!</p>
+                <p>Likes {likeThings1}, {likeThings2}, and {likeThings3}. Often to playing games when Streaming at YouTube. Playing Minecraft, Resident Evil Village, and others more!</p>
             </div>
         </Col>
         <Col>

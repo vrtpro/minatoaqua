@@ -1,7 +1,7 @@
 <script lang="ts">
     import { Container, Row, Col } from 'sveltestrap';
-    import NavigationBar from '../NavigationBar/NavigationBar.svelte';
-    import Footer from '../Footer/Footer.svelte';
+    import NavigationBar from '../Components/NavigationBar.svelte';
+    import Footer from '../Components/Footer.svelte';
 </script>
 
 <h1 class="text-center">Links</h1>
