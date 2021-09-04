@@ -20,7 +20,7 @@
                 </div>
             </Col>
             <Col>
-                <img src="img/aqua-portrait.webp" loading="lazy" height="720" style="padding-left: 1.5rem;" alt="Minato Aqua">
+                <img src="img/aqua-portrait.webp" loading="lazy" height="720" width="335" style="padding-left: 1.5rem;" alt="Minato Aqua">
             </Col>
         </Row>
     </main>
