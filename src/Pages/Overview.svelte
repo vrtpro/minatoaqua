@@ -26,7 +26,7 @@
             </div>
         </Col>
         <Col>
-            <img src="img/aqua-outfit-1-potrait.png" loading="lazy" height="720" style="padding-left: 1.5rem;" alt="Minato Aqua">
+            <img src="img/aqua-outfit-1-portrait.webp" loading="lazy" height="720" style="padding-left: 1.5rem;" alt="Minato Aqua">
         </Col>
     </Row>
 </Container>
