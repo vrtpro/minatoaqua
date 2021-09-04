@@ -1,6 +1,6 @@
 # ⚓ 湊あくあ | Minato Aqua Fanpage
 
-[![Image Preview](https://cdn.upload.systems/uploads/Xa45fluW.png)](https://aqua-fanpage.vercel.app/)
+[![Image Preview](https://cdn.upload.systems/uploads/psUYhn2p.png)](https://aqua-fanpage.vercel.app/)
 
 ## Getting Started
 
@@ -24,6 +24,12 @@
   ```
 
 - Finally open http://localhost:5000 to see the result.
+
+## Measurement Result
+
+[![Measurement Result](https://cdn.upload.systems/uploads/9g9HbX1V.png)](https://web.dev/measure)
+
+> Just got 91 at Performance 😢
 
 ## Features
 
