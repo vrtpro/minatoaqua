@@ -16,7 +16,7 @@
                     <p>"{introductionWords}"</p>
                     <p>I'm virtual idol cat ears marine maid-styled gamer {name.en}~<br>I'm from the 2nd generation of Hololive Idol Production~</p>
                     <hr width="140rem">
-                    <a href="/overview" class="btn learn-more" style="background: #131b2c; color: #ffffff;">Learn More</a>
+                    <a href="/overview" class="btn learn-more" style="background: #131b2c; color: #ffffff;">Go to Overview &nbsp; <i class="fas fa-chevron-right" /></a>
                 </div>
             </Col>
             <Col>
