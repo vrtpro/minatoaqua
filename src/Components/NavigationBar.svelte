@@ -41,7 +41,7 @@
   <PageProgress color="#db34eb" heigh="1vh" />
   <Navbar class="nav shadow-sm fixed-top" light expand="md">
     <NavbarBrand href="/"><Column><Row><Col>湊あくあ</Col></Row></Column></NavbarBrand>
-    <NavbarToggler on:click={() => (isOpen = !isOpen)} />
+    <NavbarToggler on:click={() => (isOpen = !isOpen)} aria-label="Toggle Navbar" />
     <Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
       <Nav class="ms-auto" navbar>
         <NavItem>
