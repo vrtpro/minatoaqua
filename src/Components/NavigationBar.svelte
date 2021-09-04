@@ -25,6 +25,8 @@
     }
     if (localStorage.getItem('theme') == 'dark') {
       setDarkMode();
+    } else {
+      setLightMode();
     }
     function setDarkMode() {
       document.body.setAttribute('id', 'darkmode');
