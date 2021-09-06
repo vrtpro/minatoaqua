@@ -2,6 +2,20 @@
     import { Container, Row, Col } from 'sveltestrap';
     import NavigationBar from '../Components/NavigationBar.svelte';
     import Footer from '../Components/Footer.svelte';
+    // Biar hemat, deklarasikan semua link disini.
+    const link = {
+        youtube: "https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg",
+        twitter: "https://twitter.com/minatoaqua",
+        marshmallow: "https://marshmallow-qa.com/minatoaqua",
+        fanserver: "https://discord.gg/akukinhq",
+        hololive: "https://hololive.hololivepro.com/en/talents/minato-aqua/",
+        githubdev: "https://github.com/gifaldyazkaa",
+        repository: "https://github.com/gifaldyazkaa/aqua-fanpage",
+        sveltejs: "https://svelte.dev",
+        sveltestrap: "https://sveltestrap.js.org",
+        pagejs: "https://npmjs.com/package/page",
+        spageprogress: "https://npmjs.com/package/svelte-page-progress"
+    }
 </script>
 
 <h1 class="text-center">Links</h1>
@@ -11,28 +25,25 @@
         <Col>
             <NavigationBar />
             <hr />
-            <div id="stage-1">
-                <h3 class="horizon">⚓ 湊あくあ | Minato Aqua's Links</h3>
-                <p>YouTube : <a href="https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg" target="_blank">Aqua Ch. 湊あくあ</a></p>
-                <p>Website :
-                    <ul>
-                        <li><a href="https://hololive.hololivepro.com/en/talents/minato-aqua/" target="_blank">hololive Official Website (EN)</a></li>
-                        <li><a href="https://hololive.hololivepro.com/talents/minato-aqua/" target="_blank">hololive Official Website (JP)</a></li>
-                        <li><a href="https://en.hololive.tv/portfolio/items/433565" target="_blank">hololive.tv (EN)</a></li>
-                        <li><a href="https://www.hololive.tv/portfolio/items/336383" target="_blank">hololive.tv (JP)</a></li>
-                    </ul>
-                <p>Twitter : <a href="https://twitter.com/minatoaqua" target="_blank">@minatoaqua</a></p>
-                <p>Marshmallow : <a href="https://marshmallow-qa.com/minatoaqua" target="_blank">@minatoaqua</a></p>
-                <p>Spotify : <a href="https://open.spotify.com/artist/6GHr4rGFHGRUuzuCuxJA0f" target="_blank">湊あくあ</a></p>
-                <p>TwitCasting : <a href="https://twitcasting.tv/minatoaqua" target="_blank">@minatoaqua</a></p>
-                <p>bilibili : <a href="https://space.bilibili.com/375504219/" target="_blank">湊-阿库娅Official</a></p>
-                <p>OPENREC.tv : <a href="https://www.openrec.tv/user/minatoaqua" target="_blank">@minatoaqua</a></p>
-                <p>Discord Fan Server : <a href="https://discord.gg/akukinhq" target="_blank">discord.gg/akukinhq</a></p>
+            <div id="aqua-link">
+                <h3 class="h3-title">⚓ 湊あくあ | Minato Aqua</h3>
+                <p>Searching for YouTube Channel? Here you go! Her YouTube Channel Name is <a href={link.youtube} target="_blank">Aqua Ch. 湊あくあ</a>.</p>
+                <p>Searching for Twitter Account? Her Twitter Account Username is <a href={link.twitter} target="_blank">@minatoaqua</a>.</p>
+                <p>Marshmallow username is <a href={link.marshmallow} target="_blank">@minatoaqua</a>. Here you can ask any question about him.</p>
+                <p>Want to Chill or Hang out with the fans? You can join <a href={link.fanserver} target="_blank">Akukin HQ Discord Server</a>.</p>
+                <p>You can see others information about him at <a href={link.hololive} target="_blank">Hololive Official Website</a>.</p>
             </div>
             <div id="website-related">
-                <h3 class="horizon"><i class="fas fa-globe"></i> Website Related Links</h3>
-                <p><i class="fab fa-github"></i> GitHub Repository : <a href="https://github.com/gifaldyazkaa/aqua-fanpage" target="_blank">@gifaldyazkaa/aqua-fanpage</a></p>
-                <p>This website is Built with <a href="https://svelte.dev" target="_blank">Svelte</a>, <a href="https://sveltestrap.js.org" target="_blank">sveltestrap</a>, <a href="https://www.npmjs.com/package/page" target="_blank">Page.js</a>, and <a href="https://www.npmjs.com/package/svelte-page-progress" target="_blank">svelte-page-progress</a>.</p>
+                <h3 class="h3-title"><i class="fas fa-globe"></i> Website Related</h3>
+                <p>The developer and creator is <a href={link.githubdev} target="_blank">Gifaldy Azka</a>. You can follow me or something. Thanks!</p>
+                <p>This Website is Open-source and available at GitHub. If you searching for GitHub Repositories, You can go to <a href={link.repository} target="_blank">gifaldyazkaa/aqua-fanpage</a>. Don't Forget to Star the Repository! And any contribution very welcomed.</p>
+                <p>This website built with</p>
+                <ul>
+                    <li><a href={link.sveltejs} target="_blank">Svelte</a> - Cybernetically enhanced web apps.</li>
+                    <li><a href={link.sveltestrap} target="_blank">Sveltestrap</a> - Known as Bootstrap for Svelte 3.</li>
+                    <li><a href={link.pagejs} target="_blank">Page.js</a> - Tiny Express-inspired client-side router.</li>
+                    <li><a href={link.spageprogress} target="_blank">svelte-page-progress</a> - Svelte Component that Tracks a Users Progress through a Page as they Scroll.</li>
+                </ul>
             </div>
         </Col>
     </Row>
@@ -40,13 +51,13 @@
 <Footer />
 
 <style>
-    div#stage-1, #website-related {
+    div#aqua-link, #website-related {
         padding-top: 2rem;
     }
-    div .horizon {
+    div .h3-title {
         margin-bottom: 2rem;
     }
-    h1, h3, p {
+    h1, h3, p, ul, li {
         font-family: 'Lexend', sans-serif;
     }
 </style>
