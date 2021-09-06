@@ -8,14 +8,14 @@
     const likeThings3 = likeThings[2];
 </script>
 
-<h1 class="title text-center">Overview</h1>
+<h1 class="text-center">Overview</h1>
 <Container>
     <Row>
         <hr />
         <Col>
             <NavigationBar />
             <div class="intro">
-                <h2>湊あくあ | Minato Aqua</h2>
+                <h2 class="h2-title">湊あくあ | Minato Aqua</h2>
                 <hr>
                 <p>"A-quality day to one and all! I'm Minato Aqua!"</p>
                 <p>A marine maid-styled virtual maid. She is trying her very best, yet is still sometimes awkward and clumsy.</p>
@@ -38,6 +38,9 @@
     }
     h1, h2 {
         font-family: 'Lexend', sans-serif;
+    }
+    .h2-title {
+        margin-bottom: 2rem;
     }
     p {
         font-family: 'Lexend', sans-serif;
