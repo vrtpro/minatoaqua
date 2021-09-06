@@ -10,9 +10,9 @@
     <Row>
         <Col>
             <NavigationBar />
+            <hr />
             <div id="details">
-                <h3>Details</h3>
-                <hr />
+                <h3 class="h3-title">Details</h3>
                 <p><strong>Japanese Name</strong> : {name.jp}</p>
                 <p><strong>English Name</strong> : {name.en}</p>
                 <p><strong>Debut Date</strong> : {firstDebut} (YouTube)</p>
@@ -21,8 +21,7 @@
                 <p><strong>Emoji / Oshi Mark</strong> : {oshiMark}</p>
             </div>
             <div id="personal">
-                <h3>Personal</h3>
-                <hr />
+                <h3 class="h3-title">Personal</h3>
                 <p><strong>Birthday</strong> : {inRealBirthdate}</p>
                 <p><strong>Height</strong> : {height}</p>
                 <p><strong>Weight</strong> : {weight} (Please don't ask a girl for their weight!)</p>
@@ -39,6 +38,9 @@
 <style>
     div#details,  #personal {
         padding-top: 2rem;
+    }
+    .h3-title {
+        margin-bottom: 2rem;
     }
     p, h1, h3 {
         font-family: 'Lexend', sans-serif;
