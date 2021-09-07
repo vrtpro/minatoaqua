@@ -808,10 +808,10 @@ svelte@^3.42.4:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.42.4.tgz#838ed98fa7b26fc5fffe4df0d7ba345f1c54cf4f"
   integrity sha512-DqC0AmDdBrrbIA+Kzl3yhBb6qCn4vZOAfxye2pTnIpinLegyagC5sLI8Pe9GPlXu9VpHBXIwpDDedpMfu++epA==
 
-sveltestrap@^5.6.2:
-  version "5.6.2"
-  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-5.6.2.tgz#a2d39f3ff5d3a47cafe8a64066be98fb0dae35e3"
-  integrity sha512-g+WhMNsQjdGtSIMGmfVrMVP5Pz0d+o2L49GdTZnKnd9CEeZHcgWObn7+DDnAIxxjQUsaCgdZPgPVSD8/bU8/zA==
+sveltestrap@^5.6.3:
+  version "5.6.3"
+  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-5.6.3.tgz#afb81b00d0b378719988e5339f92254dce41194f"
+  integrity sha512-/geTKJbPmJGzwHFKYC3NkUNDk/GKxrppgdSxcg58w/qcxs0S6RiN4PaQ1tgBKsdSrZDfbHfkFF+dybHAyUlV0A==
   dependencies:
     "@popperjs/core" "^2.9.2"
 
