@@ -791,10 +791,10 @@ svelte-page-progress@^1.0.1:
   resolved "https://registry.yarnpkg.com/svelte-page-progress/-/svelte-page-progress-1.0.1.tgz#909b936d23db5ee5469c62541ffa95cd6b8b80ff"
   integrity sha512-7gnQ4AuefDLC0JgvBUOqBFa7ltCTBjI8Atx/Mz3kq9P0zEY980ZcY74BFhKHbK9BXmbF0SqfAe6UlMMjYbtCKg==
 
-svelte-preprocess@^4.0.0:
-  version "4.9.1"
-  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.9.1.tgz#6b5a43b6f7851c64f721d72249689e82ee288191"
-  integrity sha512-nNGilNME8T7a1Yuisdo6MDfpVxHURR4Vj9rGsgdd1EfoS7H+8SF3qaVE92aJQt2IhTB7+BshBqBLeVP080gnpg==
+svelte-preprocess@^4.0.0, svelte-preprocess@^4.9.2:
+  version "4.9.2"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.9.2.tgz#ba4a14023e95dd549cd564ac14459aa3c026f549"
+  integrity sha512-Eu/09bEpcBD8a9pGxcILEAZssXifnWoi5ad5GgUAgoT4alblNikOIpKrWDFkepMqjgioXciWbIZOROoTX3ZLdA==
   dependencies:
     "@types/pug" "^2.0.4"
     "@types/sass" "^1.16.0"
