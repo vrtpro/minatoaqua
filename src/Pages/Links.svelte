@@ -15,6 +15,7 @@
         sveltejs: "https://svelte.dev",
         sveltestrap: "https://sveltestrap.js.org",
         pagejs: "https://npmjs.com/package/page",
+        svelteseo: "https://github.com/artiebits/svelte-seo",
         spageprogress: "https://npmjs.com/package/svelte-page-progress"
     }
 </script>
@@ -69,6 +70,7 @@
                     <li><a href={link.sveltejs} target="_blank">Svelte</a> - Cybernetically enhanced web apps.</li>
                     <li><a href={link.sveltestrap} target="_blank">Sveltestrap</a> - Known as Bootstrap for Svelte 3.</li>
                     <li><a href={link.pagejs} target="_blank">Page.js</a> - Tiny Express-inspired client-side router.</li>
+                    <li><a href={link.svelteseo} target="_blank">Svelte SEO</a> - Plugin that makes managing your SEO easier in Svelte projects.</li>
                     <li><a href={link.spageprogress} target="_blank">svelte-page-progress</a> - Svelte Component that Tracks a Users Progress through a Page as they Scroll.</li>
                 </ul>
             </div>
