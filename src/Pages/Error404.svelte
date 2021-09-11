@@ -1,7 +1,34 @@
 <script lang="ts">
     import { Container, Row, Col } from "sveltestrap";
     import NavigationBar from "../Components/NavigationBar.svelte";
+    import SvelteSeo from 'svelte-seo';
 </script>
+
+<SvelteSeo 
+	title="404 Not Found - 湊あくあ | Minato Aqua Fanpage"
+	description="Requested URL is Not Found."
+	openGraph={{
+		title: "404 Not Found - 湊あくあ | Minato Aqua Fanpage",
+		description: "Requested URL is Not Found.",
+		url: "https://aqua-fanpage.vercel.app",
+		type: "website",
+		images: [
+			{
+				url: "/favicon.png",
+				width: 320,
+				height: 320,
+				alt: "Website Icon"
+			}
+		]
+	}}
+	twitter={{
+		site: "@gifaldyazkaa",
+		title: "404 Not Found - 湊あくあ | Minato Aqua Fanpage",
+		description: "Requested URL is Not Found.",
+		image: "/favicon.png",
+		imageAlt: "Website Icon",
+	  }}
+/>
 
 <Container>
     <Row>

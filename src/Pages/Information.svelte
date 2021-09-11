@@ -2,8 +2,35 @@
     import { Container, Row, Col } from 'sveltestrap';
     import NavigationBar from '../Components/NavigationBar.svelte';
     import Footer from '../Components/Footer.svelte';
+    import SvelteSeo from 'svelte-seo';
     export let name, firstDebut, fanName, inRealBirthdate, generation, height, weight, oshiMark, hobby, likeThings, goals, uniqueSkill;
 </script>
+
+<SvelteSeo 
+	title="Information - 湊あくあ | Minato Aqua Fanpage"
+	description="Information about 湊あくあ"
+	openGraph={{
+		title: "Information  - 湊あくあ | Minato Aqua Fanpage",
+		description: "Information about 湊あくあ",
+		url: "https://aqua-fanpage.vercel.app/info",
+		type: "website",
+		images: [
+			{
+				url: "/favicon.png",
+				width: 320,
+				height: 320,
+				alt: "Website Icon"
+			}
+		]
+	}}
+	twitter={{
+		site: "@gifaldyazkaa",
+		title: "Information - 湊あくあ | Minato Aqua Fanpage",
+		description: "Information about 湊あくあ",
+		image: "/favicon.png",
+		imageAlt: "Website Icon",
+	  }}
+/>
 
 <h1 class="text-center">Information</h1>
 <Container>

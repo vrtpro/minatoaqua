@@ -2,6 +2,7 @@
     import { Container, Row, Col } from 'sveltestrap';
     import NavigationBar from '../Components/NavigationBar.svelte';
     import Footer from '../Components/Footer.svelte';
+    import SvelteSeo from 'svelte-seo';
     // Biar hemat, deklarasikan semua link disini.
     const link = {
         youtube: "https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg",
@@ -17,6 +18,32 @@
         spageprogress: "https://npmjs.com/package/svelte-page-progress"
     }
 </script>
+
+<SvelteSeo 
+	title="Links - 湊あくあ | Minato Aqua Fanpage"
+	description="Links about 湊あくあ"
+	openGraph={{
+		title: "Links - 湊あくあ | Minato Aqua Fanpage",
+		description: "Any Links Related to 湊あくあ",
+		url: "https://aqua-fanpage.vercel.app/links",
+		type: "website",
+		images: [
+			{
+				url: "/favicon.png",
+				width: 320,
+				height: 320,
+				alt: "Website Icon"
+			}
+		]
+	}}
+	twitter={{
+		site: "@gifaldyazkaa",
+		title: "Links - 湊あくあ | Minato Aqua Fanpage",
+		description: "Any Links Related to 湊あくあ",
+		image: "/favicon.png",
+		imageAlt: "Website Icon",
+	  }}
+/>
 
 <h1 class="text-center">Links</h1>
 
