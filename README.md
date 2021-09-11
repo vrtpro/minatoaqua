@@ -31,9 +31,9 @@
 
 ## Measurement Result
 
-[![Measurement Result](https://cdn.upload.systems/uploads/5s74F4tc.png)](https://web.dev/measure)
+[![Measurement Result](https://cdn.upload.systems/uploads/zciqNVXO.png)](https://web.dev/measure)
 
-> Just got 92 at Performance 😢
+> Just got 94 at Performance 😢
 
 ## Features
 
