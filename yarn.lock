@@ -682,6 +682,11 @@ sander@^0.5.0:
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
+schema-dts@^0.8.2:
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/schema-dts/-/schema-dts-0.8.3.tgz#6c03ca47200e80e9a871d6de626a7cf04fe009b7"
+  integrity sha512-GSLeVkUgEe8DzS8/FGWou1wlC8tQ1KXA5amCqCIH/psUzF74fWswtT0QFlSoJLT08CYyixnc3S/lkAm+RExoLQ==
+
 semiver@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/semiver/-/semiver-1.1.0.tgz#9c97fb02c21c7ce4fcf1b73e2c7a24324bdddd5f"
@@ -802,6 +807,13 @@ svelte-preprocess@^4.0.0:
     magic-string "^0.25.7"
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
+
+svelte-seo@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/svelte-seo/-/svelte-seo-1.3.0.tgz#2b92c667189aa2617f4fe18b0185de943af3d3cd"
+  integrity sha512-c+o0QWCzMQhdda1ssfFtxyZa6L2WAUo1duQ8vIjdFyG/zLhqjk57pXW/zETKH4Rn9UPDBVW0Re35WK7peE9e9w==
+  dependencies:
+    schema-dts "^0.8.2"
 
 svelte@^3.42.4:
   version "3.42.4"
