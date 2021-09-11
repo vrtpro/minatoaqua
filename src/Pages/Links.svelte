@@ -2,6 +2,7 @@
     import { Container, Row, Col } from 'sveltestrap';
     import NavigationBar from '../Components/NavigationBar.svelte';
     import Footer from '../Components/Footer.svelte';
+    import SvelteSeo from 'svelte-seo';
     // Biar hemat, deklarasikan semua link disini.
     const link = {
         youtube: "https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg",
@@ -14,9 +15,36 @@
         sveltejs: "https://svelte.dev",
         sveltestrap: "https://sveltestrap.js.org",
         pagejs: "https://npmjs.com/package/page",
+        svelteseo: "https://github.com/artiebits/svelte-seo",
         spageprogress: "https://npmjs.com/package/svelte-page-progress"
     }
 </script>
+
+<SvelteSeo 
+	title="Links - 湊あくあ | Minato Aqua Fanpage"
+	description="Links about 湊あくあ"
+	openGraph={{
+		title: "Links - 湊あくあ | Minato Aqua Fanpage",
+		description: "Any Links Related to 湊あくあ",
+		url: "https://aqua-fanpage.vercel.app/links",
+		type: "website",
+		images: [
+			{
+				url: "/favicon.png",
+				width: 320,
+				height: 320,
+				alt: "Website Icon"
+			}
+		]
+	}}
+	twitter={{
+		site: "@gifaldyazkaa",
+		title: "Links - 湊あくあ | Minato Aqua Fanpage",
+		description: "Any Links Related to 湊あくあ",
+		image: "/favicon.png",
+		imageAlt: "Website Icon",
+	  }}
+/>
 
 <h1 class="text-center">Links</h1>
 
@@ -42,6 +70,7 @@
                     <li><a href={link.sveltejs} target="_blank">Svelte</a> - Cybernetically enhanced web apps.</li>
                     <li><a href={link.sveltestrap} target="_blank">Sveltestrap</a> - Known as Bootstrap for Svelte 3.</li>
                     <li><a href={link.pagejs} target="_blank">Page.js</a> - Tiny Express-inspired client-side router.</li>
+                    <li><a href={link.svelteseo} target="_blank">Svelte SEO</a> - Plugin that makes managing your SEO easier in Svelte projects.</li>
                     <li><a href={link.spageprogress} target="_blank">svelte-page-progress</a> - Svelte Component that Tracks a Users Progress through a Page as they Scroll.</li>
                 </ul>
             </div>

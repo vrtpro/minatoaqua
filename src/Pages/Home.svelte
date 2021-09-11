@@ -2,8 +2,35 @@
     import { Container, Row, Col } from 'sveltestrap';
     import NavigationBar from '../Components/NavigationBar.svelte';
     import Footer from '../Components/Footer.svelte';
+    import SvelteSeo from 'svelte-seo';
     export let greetingsWord, introductionWords, name;
 </script>
+
+<SvelteSeo 
+	title="湊あくあ | Minato Aqua Fanpage"
+	description="湊あくあ Fanpage Creations. Created with Svelte, and Sveltestrap"
+	openGraph={{
+		title: "湊あくあ | Minato Aqua Fanpage",
+		description: "湊あくあ Fanpage Creations. Created with Svelte, and Sveltestrap",
+		url: "https://aqua-fanpage.vercel.app",
+		type: "website",
+		images: [
+			{
+				url: "/favicon.png",
+				width: 320,
+				height: 320,
+				alt: "Website Icon"
+			}
+		]
+	}}
+	twitter={{
+		site: "@gifaldyazkaa",
+		title: "湊あくあ | Minato Aqua Fanpage",
+		description: "湊あくあ Fanpage Creations. Created with Svelte, and Sveltestrap",
+		image: "/favicon.png",
+		imageAlt: "Website Icon",
+	  }}
+/>
 
 <Container>
     <main>
