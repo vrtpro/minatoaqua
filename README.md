@@ -2,7 +2,8 @@
 
 [![Image Preview](https://cdn.upload.systems/uploads/psUYhn2p.png)](https://aqua-fanpage.vercel.app/)
 
-![License](https://img.shields.io/github/license/gifaldyazkaa/aqua-fanpage?style=for-the-badge) ![Views Count](https://visitor-badges.glitch.me?username=gifaldyazkaa&repo=aqua-fanpage&label=VIEWS&style=for-the-badge&color=%23457BFF&token=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) ![GitHub Repo Size](https://img.shields.io/github/repo-size/gifaldyazkaa/aqua-fanpage?style=for-the-badge)
+![License](https://img.shields.io/github/license/gifaldyazkaa/aqua-fanpage?style=for-the-badge) ![Views Count](https://visitor-badges.glitch.me?username=gifaldyazkaa&repo=aqua-fanpage&label=VIEWS&style=for-the-badge&color=%23457BFF&token=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&contentType=svg)
+) ![GitHub Repo Size](https://img.shields.io/github/repo-size/gifaldyazkaa/aqua-fanpage?style=for-the-badge)
 
 ## Getting Started
 
