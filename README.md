@@ -56,14 +56,14 @@ This app is built with
 
 ## Contributing
 
-We're open to any Contributions! Want to contribute to this project? Follow these instructions!
+We're Open and Every Contributions will be welcomed! Want to contribute to this project? Follow these instructions!
 
-- [Fork this repo](https://github.com/gifaldyazkaa/aqua-fanpage/fork)
+- [Fork this repo!](https://github.com/gifaldyazkaa/aqua-fanpage/fork)
 - Clone your fork : `git clone https://github.com/your-username/aqua-fanpage.git`
 - Create your feature branch : `git checkout -b my-new-feature`
-- Commit your changes : `git commit -am 'Add some feature'`
+- Commit your changes with improvements : `git commit -am 'Add some feature'`
 - Push to the branch : `git push origin my-new-feature`
-- Submit a pull request :D
+- Submit a pull request :D.
 
 ## License
 
