@@ -58,7 +58,7 @@ This app is built with
 
 We're Open and Every Contributions will be welcomed! Want to contribute to this project? Follow these instructions!
 
-- Read Contributing Terms first. You can read it at [`CONTRIBUTING.md`](blob/master/CONTRIBUTING.md).
+- Read Contributing Terms first. You can read it at [`CONTRIBUTING.md`](CONTRIBUTING.md).
 - [Fork this repo!](https://github.com/gifaldyazkaa/aqua-fanpage/fork)
 - Clone your fork
 - Create your feature branch
