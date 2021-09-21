@@ -69,4 +69,7 @@
     main .row .col #greetings {
         padding-top: 6rem;
     }
+    main .row .col #greetings a:hover {
+        text-decoration: none;
+    }
 </style>
