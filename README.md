@@ -32,9 +32,9 @@
 
 ## Measurement Result
 
-[![Measurement Result](https://cdn.upload.systems/uploads/zciqNVXO.png)](https://web.dev/measure)
+[![Measurement Result](https://cdn.upload.systems/uploads/14ydsfdW.png)](https://web.dev/measure)
 
-> Just got 94 at Performance 😢
+> Poggers, Got 97 at Performance right now! :O
 
 ## Features
 
