@@ -20,8 +20,7 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 2. If you've added code that should be tested, add tests.
 3. If you've changed APIs, update the documentation.
 4. Ensure the test suite passes.
-5. Make sure your code lints.
-6. Issue that pull request!
+5. Issue that pull request!
 
 ## Any contributions you make will be under the MIT Software License
 
@@ -52,7 +51,7 @@ People _love_ thorough bug reports. I'm not even kidding.
 I'm again borrowing these from [Facebook's Guidelines](https://github.com/facebook/draft-js/blob/a9316a723f9e918afde44dea68b5f9f39b7d9b00/CONTRIBUTING.md)
 
 - 2 spaces for indentation rather than tabs
-- You can try running `yarn run check` for code check using svelte-check
+- You can try running `yarn run check` for code check using svelte-check.
 
 ## License
 
