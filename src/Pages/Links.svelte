@@ -55,23 +55,23 @@
             <hr />
             <div id="aqua-link">
                 <h3 class="h3-title">⚓ 湊あくあ | Minato Aqua</h3>
-                <p>Searching for YouTube Channel? Here you go! Her YouTube Channel Name is <a href={link.youtube} target="_blank">Aqua Ch. 湊あくあ</a>.</p>
-                <p>Searching for Twitter Account? Her Twitter Account Username is <a href={link.twitter} target="_blank">@minatoaqua</a>.</p>
-                <p>Marshmallow username is <a href={link.marshmallow} target="_blank">@minatoaqua</a>. Here you can ask any question about him.</p>
-                <p>Want to Chill or Hang out with the fans? You can join <a href={link.fanserver} target="_blank">Akukin HQ Discord Server</a>.</p>
-                <p>You can see others information about him at <a href={link.hololive} target="_blank">Hololive Official Website</a>.</p>
+                <p>Searching for YouTube Channel? Here you go! Her YouTube Channel Name is <a href={link.youtube} target="_blank" class="link-general">Aqua Ch. 湊あくあ</a>.</p>
+                <p>Searching for Twitter Account? Her Twitter Account Username is <a href={link.twitter} target="_blank" class="link-general">@minatoaqua</a>.</p>
+                <p>Marshmallow username is <a href={link.marshmallow} target="_blank" class="link-general">@minatoaqua</a>. Here you can ask any question about him.</p>
+                <p>Want to Chill or Hang out with the fans? You can join <a href={link.fanserver} target="_blank" class="link-general">Akukin HQ Discord Server</a>.</p>
+                <p>You can see others information about him at <a href={link.hololive} target="_blank" class="link-general">Hololive Official Website</a>.</p>
             </div>
             <div id="website-related">
                 <h3 class="h3-title"><i class="fas fa-globe"></i> Website Related</h3>
-                <p>The developer and creator is <a href={link.githubdev} target="_blank">Gifaldy Azka</a>. You can follow me or something. Thanks!</p>
-                <p>This Website is Open-source and available at GitHub. If you searching for GitHub Repositories, You can go to <a href={link.repository} target="_blank">gifaldyazkaa/aqua-fanpage</a>. Don't Forget to Star the Repository! And any contribution very welcomed.</p>
+                <p>The developer and creator is <a href={link.githubdev} target="_blank" class="link-general">Gifaldy Azka</a>. You can follow me or something. Thanks!</p>
+                <p>This Website is Open-source and available at GitHub. If you searching for GitHub Repositories, You can go to <a href={link.repository} target="_blank" class="link-general">gifaldyazkaa/aqua-fanpage</a>. Don't Forget to Star the Repository! And any contribution very welcomed.</p>
                 <p>This website built with</p>
                 <ul>
-                    <li><a href={link.sveltejs} target="_blank">Svelte</a> - Cybernetically enhanced web apps.</li>
-                    <li><a href={link.sveltestrap} target="_blank">Sveltestrap</a> - Known as Bootstrap for Svelte 3.</li>
-                    <li><a href={link.pagejs} target="_blank">Page.js</a> - Tiny Express-inspired client-side router.</li>
-                    <li><a href={link.svelteseo} target="_blank">Svelte SEO</a> - Plugin that makes managing your SEO easier in Svelte projects.</li>
-                    <li><a href={link.spageprogress} target="_blank">svelte-page-progress</a> - Svelte Component that Tracks a Users Progress through a Page as they Scroll.</li>
+                    <li><a href={link.sveltejs} target="_blank" class="link-general">Svelte</a> - Cybernetically enhanced web apps.</li>
+                    <li><a href={link.sveltestrap} target="_blank" class="link-general">Sveltestrap</a> - Known as Bootstrap for Svelte 3.</li>
+                    <li><a href={link.pagejs} target="_blank" class="link-general">Page.js</a> - Tiny Express-inspired client-side router.</li>
+                    <li><a href={link.svelteseo} target="_blank" class="link-general">Svelte SEO</a> - Plugin that makes managing your SEO easier in Svelte projects.</li>
+                    <li><a href={link.spageprogress} target="_blank" class="link-general">svelte-page-progress</a> - Svelte Component that Tracks a Users Progress through a Page as they Scroll.</li>
                 </ul>
             </div>
         </Col>
@@ -88,5 +88,8 @@
     }
     h1, h3, p, ul, li {
         font-family: 'Lexend', sans-serif;
+    }
+    #aqua-link, #website-related, a:hover {
+        text-decoration: none;
     }
 </style>
