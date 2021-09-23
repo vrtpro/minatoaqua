@@ -18,7 +18,7 @@ body {
 }
 
 a {
-  color: rgb(0, 100, 200);
+  color: #0064c8;
   text-decoration: none;
 }
 
@@ -40,7 +40,7 @@ textarea {
   padding: 0.4em;
   margin: 0 0 0.5em 0;
   box-sizing: border-box;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   border-radius: 2px;
 }
 
@@ -49,7 +49,7 @@ input:disabled {
 }
 
 button {
-  color: #333;
+  color: #333333;
   background-color: #f4f4f4;
   outline: none;
 }
@@ -59,7 +59,7 @@ button:disabled {
 }
 
 button:not(:disabled):active {
-  background-color: #ddd;
+  background-color: #dddddd;
 }
 
 button:focus {
@@ -74,7 +74,6 @@ button:focus {
   background: #1a202c;
   color: #ffffff;
   transition: background 0.1s;
-  transition: color 0.1s;
 }
 #darkmode a {
   color: #ffffff;
@@ -88,7 +87,7 @@ button:focus {
   font-family: 'Lexend', sans-serif;
 }
 #darkmode .navbar-toggler:hover {
-  background: rgb(20, 20, 20);
+  background: #141414;
 }
 #darkmode .dropdown-menu {
   -webkit-backdrop-filter: blur(8px);
@@ -99,13 +98,19 @@ button:focus {
   font-family: 'Lexend', sans-serif;
 }
 #darkmode .dropdown-menu button:hover {
-  background: rgb(20, 20, 20);
+  background: #141414;
+}
+#darkmode .link-general {
+  color: #0064c8;
+}
+#darkmode .link-general:hover {
+  color: #0064c8;
 }
 #darkmode footer a {
-  color: rgb(0, 100, 200);
+  color: #0064c8;
 }
 #darkmode footer a:hover {
-  color: rgb(0, 100, 200);
+  color: #0064c8;
 }
 /* Navbar */
 .nav {
