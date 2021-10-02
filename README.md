@@ -1,4 +1,7 @@
 # ⚓ 湊あくあ | Minato Aqua Fanpage
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Image Preview](https://cdn.upload.systems/uploads/psUYhn2p.png)](https://aqua-fanpage.vercel.app/)
 
@@ -71,3 +74,23 @@ We're Open and Every Contributions will be welcomed! Want to contribute to this 
 - Character Copyright &copy; 2017-2021 [COVER Corp](https://cover-corp.com).
 - Favicon Copyright &copy; 2021 from [Aqua Ch. Membership Badge](https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg/join).
 - [aqua-fanpage](#) is Licensed Under [MIT License](https://github.com/gifaldyazkaa/aqua-fanpage/blob/master/LICENSE). The code is open-source and Free to use, Please have a look at the License and keep in mind about Giving appropriate credit where it is due, Thanks!
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://gifaldyazka.is-a.dev"><img src="https://avatars.githubusercontent.com/u/68645946?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gifaldy Azka</b></sub></a><br /><a href="https://github.com/gifaldyazkaa/aqua-fanpage/commits?author=gifaldyazkaa" title="Code">💻</a> <a href="#design-gifaldyazkaa" title="Design">🎨</a> <a href="#content-gifaldyazkaa" title="Content">🖋</a> <a href="https://github.com/gifaldyazkaa/aqua-fanpage/commits?author=gifaldyazkaa" title="Tests">⚠️</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
