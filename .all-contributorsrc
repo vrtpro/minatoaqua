@@ -6,13 +6,6 @@
   "commit": false,
   "contributors": [
     {
-      "login": "shiraayuki",
-      "name": "Yuki Shira",
-      "avatar_url": "https://avatars.githubusercontent.com/u/91227737?v=4",
-      "profile": "https://github.com/shiraayuki",
-      "contributions": [
-        "code"
-      ]
       "login": "gifaldyazkaa",
       "name": "Gifaldy Azka",
       "avatar_url": "https://avatars.githubusercontent.com/u/68645946?v=4",
@@ -22,6 +15,13 @@
         "design",
         "content",
         "test"
+      ],
+      "login": "shiraayuki",
+      "name": "Yuki Shira",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91227737?v=4",
+      "profile": "https://github.com/shiraayuki",
+      "contributions": [
+        "code"
       ]
     }
   ],
