@@ -20,23 +20,23 @@
   
     let isOpen = false;
   
-    function handleUpdate(event) {
+    const handleUpdate = (event) => {
       isOpen = event.detail.isOpen;
+    }
+    const setDarkMode = () => {
+      document.body.setAttribute('id', 'darkmode');
+      localStorage.setItem('theme', 'dark');
+      document.getElementById("color-theme").setAttribute("content", "#1a202c");
+    }
+    const setLightMode = () => {
+      document.body.setAttribute('id', '');
+      localStorage.removeItem('theme');
+      document.getElementById("color-theme").setAttribute("content", "#FFFFFF");
     }
     if (localStorage.getItem('theme') == 'dark') {
       setDarkMode();
     } else {
       setLightMode();
-    }
-    function setDarkMode() {
-      document.body.setAttribute('id', 'darkmode');
-      localStorage.setItem('theme', 'dark');
-      document.getElementById("color-theme").setAttribute("content", "#1a202c");
-    }
-    function setLightMode() {
-      document.body.setAttribute('id', '');
-      localStorage.removeItem('theme');
-      document.getElementById("color-theme").setAttribute("content", "#FFFFFF");
     }
   </script>
   
