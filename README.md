@@ -84,6 +84,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
+    <td align="center"><a href="https://github.com/shiraayuki"><img src="https://avatars.githubusercontent.com/u/91227737?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yuki Shira</b></sub></a><br /><a href="https://github.com/gifaldyazkaa/aqua-fanpage/commits?author=shiraayuki" title="Code">💻</a></td>
     <td align="center"><a href="http://gifaldyazka.is-a.dev"><img src="https://avatars.githubusercontent.com/u/68645946?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gifaldy Azka</b></sub></a><br /><a href="https://github.com/gifaldyazkaa/aqua-fanpage/commits?author=gifaldyazkaa" title="Code">💻</a> <a href="#design-gifaldyazkaa" title="Design">🎨</a> <a href="#content-gifaldyazkaa" title="Content">🖋</a> <a href="https://github.com/gifaldyazkaa/aqua-fanpage/commits?author=gifaldyazkaa" title="Tests">⚠️</a></td>
   </tr>
 </table>
