@@ -6,7 +6,9 @@
     "build": "rollup -c",
     "dev": "HOST=0.0.0.0 rollup -c -w",
     "start": "HOST=0.0.0.0 sirv public --single",
-    "check": "svelte-check --tsconfig ./tsconfig.json"
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "format": "prettier --write .",
+    "check-format": "prettier -c ."
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "21.0.0",
