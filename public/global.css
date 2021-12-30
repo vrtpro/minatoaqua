@@ -109,13 +109,13 @@ button:focus {
   background: #141414;
 }
 #darkmode .link-general {
-  color: #0064c8;
+  color: #3579bd;
 }
 #darkmode .link-general:hover {
   color: #0064c8;
 }
 #darkmode footer a {
-  color: #0064c8;
+  color: #3579bd;
 }
 #darkmode footer a:hover {
   color: #0064c8;
