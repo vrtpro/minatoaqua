@@ -10,6 +10,7 @@
     "format": "prettier --write .",
     "check-format": "prettier -c ."
   },
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "21.0.1",
     "@rollup/plugin-node-resolve": "13.1.1",
