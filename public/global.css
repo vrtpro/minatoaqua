@@ -17,6 +17,13 @@ body {
   font-family: 'Lexend', sans-serif;
 }
 
+h1,
+h2,
+h3,
+p {
+  cursor: default;
+}
+
 a {
   color: #0064c8;
   text-decoration: none;
