@@ -15,10 +15,11 @@
     font-family: 'Lexend', sans-serif;
     padding-bottom: 1rem;
   }
-  footer #footer-text a {
+  a {
     text-decoration: none;
   }
-  footer #footer-text a:hover {
+  a:hover {
     text-decoration: underline;
+    text-decoration-style: dotted;
   }
 </style>

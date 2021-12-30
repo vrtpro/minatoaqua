@@ -64,15 +64,16 @@
   div.intro {
     padding-top: 2rem;
   }
-  div.intro a {
-    text-decoration: underline;
-  }
-  div.intro a:hover {
-    text-decoration: none;
-  }
   h1,
   h2 {
     font-family: 'Lexend', sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
   }
   .h2-title {
     margin-bottom: 2rem;

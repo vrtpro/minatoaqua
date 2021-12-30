@@ -103,11 +103,6 @@
             > - Tiny Express-inspired client-side router.
           </li>
           <li>
-            <a href={link.svelteseo} target="_blank" class="link-general"
-              >Svelte SEO</a
-            > - Plugin that makes managing your SEO easier in Svelte projects.
-          </li>
-          <li>
             <a href={link.spageprogress} target="_blank" class="link-general"
               >svelte-page-progress</a
             > - Svelte Component that Tracks a Users Progress through a Page as they
@@ -135,9 +130,11 @@
   li {
     font-family: 'Lexend', sans-serif;
   }
-  #aqua-link,
-  #website-related,
-  a:hover {
+  a {
     text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
   }
 </style>
