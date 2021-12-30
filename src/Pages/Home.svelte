@@ -1,75 +1,67 @@
 <script lang="ts">
-    import { Container, Row, Col } from 'sveltestrap';
-    import NavigationBar from '../Components/NavigationBar.svelte';
-    import Footer from '../Components/Footer.svelte';
-    import SvelteSeo from 'svelte-seo';
-    export let greetingsWord, introductionWords, name;
+  import { Container, Row, Col } from 'sveltestrap';
+  import NavigationBar from '../Components/NavigationBar.svelte';
+  import Footer from '../Components/Footer.svelte';
+  export let greetingsWord, introductionWords, name;
 </script>
 
-<SvelteSeo 
-	title="湊あくあ | Minato Aqua Fanpage"
-	description="湊あくあ Fanpage Creations. Created with Svelte, and Sveltestrap"
-	openGraph={{
-		title: "湊あくあ | Minato Aqua Fanpage",
-		description: "湊あくあ Fanpage Creations. Created with Svelte, and Sveltestrap",
-		url: "https://aqua-fanpage.vercel.app",
-		type: "website",
-		images: [
-			{
-				url: "/favicon.png",
-				width: 320,
-				height: 320,
-				alt: "Website Icon"
-			}
-		]
-	}}
-	twitter={{
-		site: "@gifaldyazkaa",
-		title: "湊あくあ | Minato Aqua Fanpage",
-		description: "湊あくあ Fanpage Creations. Created with Svelte, and Sveltestrap",
-		image: "/favicon.png",
-		imageAlt: "Website Icon",
-	  }}
-/>
+<svelte:head>
+  <title>湊あくあ | Minato Aqua Fanpage</title>
+</svelte:head>
 
 <Container>
-    <main>
-        <Row>
-            <Col>
-                <NavigationBar />
-                <div id="greetings">
-                    <h1>{greetingsWord.en}</h1>
-                    <hr width="200rem">
-                    <p>"{introductionWords}"</p>
-                    <p>I'm virtual idol cat ears marine maid-styled gamer {name.en}~<br>I'm from the 2nd generation of Hololive Idol Production~</p>
-                    <hr width="140rem">
-                    <a href="/overview" class="btn learn-more" style="background: #131b2c; color: #ffffff;">Go to Overview &nbsp; <i class="fas fa-chevron-right" /></a>
-                </div>
-            </Col>
-            <Col>
-                <img src="img/aqua-portrait.webp" loading="lazy" height="720" width="335" style="padding-left: 1.5rem;" alt="Minato Aqua">
-            </Col>
-        </Row>
-    </main>
+  <main>
+    <Row>
+      <Col>
+        <NavigationBar />
+        <div id="greetings">
+          <h1>{greetingsWord.en}</h1>
+          <hr width="200rem" />
+          <p>"{introductionWords}"</p>
+          <p>
+            I'm virtual idol cat ears marine maid-styled gamer {name.en}~<br
+            />I'm from the 2nd generation of Hololive Idol Production~
+          </p>
+          <hr width="140rem" />
+          <a
+            href="/overview"
+            class="btn learn-more"
+            style="background: #131b2c; color: #ffffff;"
+            >Go to Overview &nbsp; <i class="fas fa-chevron-right" /></a
+          >
+        </div>
+      </Col>
+      <Col>
+        <img
+          src="img/aqua-portrait.webp"
+          loading="lazy"
+          height="720"
+          width="335"
+          style="padding-left: 1.5rem;"
+          alt="Minato Aqua"
+        />
+      </Col>
+    </Row>
+  </main>
 </Container>
 <Footer />
 
 <style>
-    @media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-        main .row .col #greetings {
-            padding-top: -6rem;
-        }
-	}
+  @media (min-width: 640px) {
     main {
-        font-family: 'Lexend', sans-serif;
+      max-width: none;
     }
     main .row .col #greetings {
-        padding-top: 6rem;
+      padding-top: -6rem;
     }
-    main .row .col #greetings a:hover {
-        text-decoration: none;
-    }
+  }
+  main {
+    font-family: 'Lexend', sans-serif;
+  }
+  main .row .col #greetings {
+    padding-top: 6rem;
+  }
+  main .row .col #greetings a:hover {
+    text-decoration: none;
+  }
 </style>
