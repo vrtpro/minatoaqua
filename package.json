@@ -32,6 +32,6 @@
     "page": "^1.11.6",
     "sirv-cli": "^1.0.0",
     "svelte-page-progress": "^1.0.1",
-    "sveltestrap": "^5.6.3"
+    "sveltestrap": "^5.7.0"
   }
 }
