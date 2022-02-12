@@ -1,0 +1,9 @@
+{
+	"extends": ["config:base"],
+	"baseBranches": ["master"],
+	"labels": ["📦 Dependencies"],
+	"branchPrefix": "deps/",
+	"dependencyDashboardTitle": "[Renovate-bot] Dependency dashboard",
+	"fetchReleaseNotes": true,
+	"reviewersFromCodeOwners": true
+}
