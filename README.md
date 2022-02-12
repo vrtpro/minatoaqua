@@ -7,34 +7,38 @@
 
 ## Getting Started
 
-- First, Clone this Repository to Your Local Computer
+### Clone this Repository
 
-  ```sh
-  $ git clone https://github.com/gifaldyazkaa/aqua-fanpage.git
-  $ cd aqua-fanpage
-  ```
+```sh
+$ git clone https://github.com/gifaldyazkaa/aqua-fanpage.git
+$ cd aqua-fanpage
+```
 
-- Install all required package using yarn
+### Install all dependencies
 
-  ```sh
-  $ yarn install
-  ```
+```sh
+# Using Yarn
+$ yarn install
+# Using pnpm
+$ pnpm install
+```
 
-- Run the app in development
+### Run the app in development
 
-  ```sh
-  $ yarn run dev
-  ```
+```sh
+# Using yarn
+$ yarn run dev
+# Using dum
+$ dum dev
+```
 
-- Finally open http://localhost:5000 to see the result.
-
-> \* Please note if i'm using yarn in this project.
+### Open http://localhost:5000 to see the result.
 
 ## Measurement Result
 
 [![Measurement Result](https://cdn.upload.systems/uploads/14ydsfdW.png)](https://web.dev/measure)
 
-> Poggers, Got 97 at Performance right now! :O
+> Got 97 at Performance right now! :fire:
 
 ## Features
 
@@ -56,15 +60,7 @@ This app is built with
 
 ## Contributing
 
-We're Open and Every Contributions will be welcomed! Want to contribute to this project? Follow these instructions!
-
-- Read Contributing Terms first. You can read it at [`CONTRIBUTING.md`](CONTRIBUTING.md).
-- [Fork this repo!](https://github.com/gifaldyazkaa/aqua-fanpage/fork)
-- Clone your fork
-- Create your feature branch
-- Create a commit with improvements
-- Push to the branch
-- Submit a pull request :D
+We're Open and Every Contributions will be welcomed! Feel free to send pr!
 
 ## License
 
