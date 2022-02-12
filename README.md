@@ -23,7 +23,7 @@ $ yarn install
 $ pnpm install
 ```
 
-### Run the app in development
+### Run the app in development server
 
 ```sh
 # Using yarn
