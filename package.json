@@ -33,6 +33,6 @@
     "sass": "1.49.7",
     "sirv-cli": "2.0.2",
     "svelte-page-progress": "1.0.1",
-    "sveltestrap": "5.8.4"
+    "sveltestrap": "5.9.0"
   }
 }
