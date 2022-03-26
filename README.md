@@ -1,46 +1,42 @@
-# ⚓ 湊あくあ | Minato Aqua Fanpage
+# ⚓ 湊あくあ／Minato Aqua Fanpage
 
-[![Image Preview](https://cdn.upload.systems/uploads/psUYhn2p.png)](https://aqua-fanpage.vercel.app/)
+[![Project card](https://cdn.upload.systems/uploads/uBOxBZYG.png)](https://aqua.falcxxdev.ml)
 
-![License](https://img.shields.io/github/license/gifaldyazkaa/aqua-fanpage?style=for-the-badge) ![Views Count](https://visitor-badges.glitch.me?username=gifaldyazkaa&repo=aqua-fanpage&label=VIEWS&style=for-the-badge&color=%23457BFF&token=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&contentType=svg)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/gifaldyazkaa/aqua-fanpage?style=for-the-badge)
+![Vercel Status](https://img.shields.io/github/deployments/gifaldyazkaa/aqua-fanpage/Production?label=Vercel&logo=vercel&logoColor=black&style=for-the-badge) ![CI Status](https://img.shields.io/github/workflow/status/gifaldyazkaa/aqua-fanpage/%5BPrettier%5D%20Format%20Checking?label=CI&logo=github-actions&style=for-the-badge) ![Repo Size](https://img.shields.io/github/repo-size/gifaldyazkaa/aqua-fanpage?logo=github&style=for-the-badge)
 
-## Getting Started
+## ➡️ Developing
 
-### Clone this Repository
+### 🛠️ Requirements
 
-```sh
-$ git clone https://github.com/gifaldyazkaa/aqua-fanpage.git
-$ cd aqua-fanpage
-```
+A node.js >= 16.12.0 setup with [yarn](https://yarnpkg.com) is recommended.
 
-### Install all dependencies
+### 📦 Install dependencies
 
 ```sh
-# Using Yarn
 $ yarn install
-# Using pnpm
-$ pnpm install
+#
+# yarn install v1.22.18
+# [1/4] 🔍  Resolving packages...
+# [2/4] 🚚  Fetching packages...
+# [3/4] 🔗  Linking dependencies...
+# [4/4] 🔨  Building fresh packages...
+#
+# ✨  Done in 4.38s.
 ```
 
-### Run the app in development server
+### 🏃 Run the app in development server
 
 ```sh
-# Using yarn
 $ yarn run dev
-# Using dum
-$ dum dev
+# yarn run v1.22.18
+#
+#   Your application is ready~! 🚀
+#
+#   - Local:      http://0.0.0.0:8080
+#   - Network:    http://192.168.52.33:8080
 ```
 
-### Open http://localhost:5000 to see the result.
-
-## Measurement Result
-
-[![Measurement Result](https://cdn.upload.systems/uploads/14ydsfdW.png)](https://web.dev/measure)
-
-> Got 97 at Performance right now! :fire:
-
-## Features
+## 💎 Features
 
 - Routing using [Page.js](https://npmjs.com/package/page)
 - Dark Mode Support
@@ -48,22 +44,18 @@ $ dum dev
 - Responsive Website
 - Modern Design
 
-## Built with
+## 🖥️ Built with
 
 This app is built with
 
-- [Svelte TypeScript](https://svelte.dev)
+- [Svelte](https://svelte.dev)
 - [Sveltestrap](https://sveltestrap.js.org)
 - [Page.js](https://npmjs.com/package/page)
-- [svelte-seo](https://github.com/artiebits/svelte-seo)
-- [svelte-page-progress](https://www.npmjs.com/package/svelte-page-progress)
+- [Svelte SEO](https://github.com/artiebits/svelte-seo)
+- [Svelte Page Progress](https://www.npmjs.com/package/svelte-page-progress)
 
-## Contributing
-
-We're Open and Every Contributions will be welcomed! Feel free to send pr!
-
-## License
+## 📃 License
 
 - Character Copyright &copy; 2017-2021 [COVER Corp](https://cover-corp.com).
 - Favicon Copyright &copy; 2021 from [Aqua Ch. Membership Badge](https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg/join).
-- [aqua-fanpage](#) is Licensed Under [MIT License](https://github.com/gifaldyazkaa/aqua-fanpage/blob/master/LICENSE). The code is open-source and Free to use, Please have a look at the License and keep in mind about Giving appropriate credit where it is due, Thanks!
+- [aqua-fanpage](#) is Licensed Under [MIT](https://github.com/gifaldyazkaa/aqua-fanpage/blob/master/LICENSE) License. The code is open-source and Free to use, Please have a look at the License and keep in mind about Giving appropriate credit where it is due, Thanks!
