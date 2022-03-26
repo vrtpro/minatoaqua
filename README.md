@@ -31,7 +31,7 @@ $ yarn run dev
 #   Your application is ready~! 🚀
 #
 #   - Local:      http://0.0.0.0:8080
-#   - Network:    http://192.168.52.33:8080
+#   - Network:    http://[hostname]:8080
 ```
 
 ## 💎 Features
