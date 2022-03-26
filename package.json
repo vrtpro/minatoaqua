@@ -1,6 +1,8 @@
 {
-  "name": "svelte-app",
+  "name": "aqua-fanpage",
   "version": "1.1.8",
+  "license": "MIT",
+  "homepage": "https://aqua.falcxxdev.ml",
   "private": true,
   "scripts": {
     "build": "rollup -c",
@@ -10,7 +12,6 @@
     "format": "prettier --write .",
     "check-format": "prettier -c ."
   },
-  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "21.0.2",
     "@rollup/plugin-node-resolve": "13.1.3",
