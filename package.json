@@ -1,15 +1,15 @@
 {
   "name": "aqua-fanpage",
-  "version": "1.2.0",
+  "version": "1.2.4",
   "license": "MIT",
   "homepage": "https://aqua.falcxxdev.ml",
   "private": true,
   "scripts": {
     "build": "rollup -c",
-    "dev": "HOST=0.0.0.0 rollup -c -w",
-    "start": "HOST=0.0.0.0 sirv public --single",
+    "dev": "rollup -c -w --host=0.0.0.0",
+    "start": "sirv public --single --host=0.0.0.0",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "format": "prettier --write .",
+    "format": "prettier -w .",
     "check-format": "prettier -c ."
   },
   "devDependencies": {
