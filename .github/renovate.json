@@ -3,7 +3,7 @@
   "baseBranches": ["master"],
   "labels": ["📦 Dependencies"],
   "branchPrefix": "deps/",
-  "dependencyDashboardTitle": "[Renovate-bot] Dependency dashboard",
+  "dependencyDashboard": false,
   "fetchReleaseNotes": true,
   "reviewersFromCodeOwners": true
 }
