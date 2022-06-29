@@ -28,7 +28,7 @@ jobs:
                   restore-keys: ${{ runner.os }}-node-
 
             - name: Install Dependecies
-              run: pnpm install
+              run: npm install
 
             - name: Start check
-              run: pnpm run check
+              run: npm run check
