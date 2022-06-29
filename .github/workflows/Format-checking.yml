@@ -1,4 +1,4 @@
-name: '[Prettier] Format Checking'
+name: '[Lint] Linter Checking'
 on:
     push:
         branches:
@@ -28,7 +28,7 @@ jobs:
                   restore-keys: ${{ runner.os }}-node-
 
             - name: Install Dependecies
-              run: yarn install
+              run: pnpm install
 
-            - name: Check Format
-              run: yarn run check-format
+            - name: Start check
+              run: pnpm run check
