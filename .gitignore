@@ -117,8 +117,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# Code editor setting
-.vscode/settings.json
+# VSCode
+.vscode/
 
 # Build result
 public/build/

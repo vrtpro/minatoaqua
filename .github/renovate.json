@@ -1,9 +1,22 @@
 {
-  "extends": ["config:base"],
-  "baseBranches": ["master"],
-  "labels": ["📦 Dependencies"],
-  "branchPrefix": "deps/",
-  "dependencyDashboard": false,
-  "fetchReleaseNotes": true,
-  "reviewersFromCodeOwners": true
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": ["config:base"],
+    "assigneesFromCodeOwners": true,
+    "dependencyDashboard": false,
+    "fetchReleaseNotes": true,
+    "reviewersFromCodeOwners": true,
+    "packageRules": [
+        {
+            "matchPackagePatterns": ["*"],
+            "matchUpdateTypes": ["minor", "patch"],
+            "groupName": "all non-major dependencies",
+            "groupSlug": "all-minor-patch",
+            "labels": ["dependencies"]
+        },
+        {
+            "matchPackagePatterns": ["*"],
+            "matchUpdateTypes": ["major"],
+            "labels": ["dependencies", "breaking"]
+        }
+    ]
 }

@@ -1,0 +1,15 @@
+{
+    "github": {
+        "silent": true
+    },
+    "redirects": [
+        {
+            "source": "/author",
+            "destination": "https://github.com/gifaldyazkaa"
+        },
+        {
+            "source": "/view-source",
+            "destination": "https://github.com/gifaldyazkaa/aqua-fanpage"
+        }
+    ]
+}
