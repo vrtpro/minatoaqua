@@ -1,5 +1,5 @@
 [![Project card](https://cdn.upload.systems/uploads/uBOxBZYG.png)](https://aqua.falcxxdev.ml)
-![Vercel Status](https://img.shields.io/github/deployments/gifaldyazkaa/aqua-fanpage/Production?label=Vercel&logo=vercel&logoColor=black&style=for-the-badge) ![CI Status](https://img.shields.io/github/workflow/status/gifaldyazkaa/aqua-fanpage/%5BPrettier%5D%20Format%20Checking?label=CI&logo=github-actions&style=for-the-badge) ![Repo Size](https://img.shields.io/github/repo-size/gifaldyazkaa/aqua-fanpage?logo=github&style=for-the-badge)
+![Vercel Status](https://img.shields.io/github/deployments/gifaldyazkaa/aqua-fanpage/Production?label=Vercel&logo=vercel&logoColor=black&style=for-the-badge) ![CI Status](https://img.shields.io/github/workflow/status/gifaldyazkaa/aqua-fanpage/%5BLint%5D%20Linter%20Checking?label=CI&logo=github-actions&style=for-the-badge) ![Repo Size](https://img.shields.io/github/repo-size/gifaldyazkaa/aqua-fanpage?logo=github&style=for-the-badge)
 
 ## ➡️ Developing
 
