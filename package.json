@@ -7,9 +7,8 @@
         "build": "rollup -c",
         "dev": "rollup -c -w --host=0.0.0.0",
         "start": "sirv public --single --host=0.0.0.0",
-        "check": "svelte-check --tsconfig ./tsconfig.json",
-        "format": "prettier -w .",
-        "check-format": "prettier -c ."
+        "check": "svelte-check --tsconfig ./tsconfig.json && prettier -c .",
+        "format": "prettier -w ."
     },
     "repository": {
         "type": "git",
