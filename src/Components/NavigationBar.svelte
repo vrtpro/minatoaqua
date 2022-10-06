@@ -55,11 +55,8 @@
         <NavItem>
             <NavLink href="/info">Information</NavLink>
         </NavItem>
-        <NavItem>
-          <NavLink href="/links">Links</NavLink>
-      </NavItem>
         <Dropdown nav inNavbar>
-          <DropdownToggle nav caret>Mode</DropdownToggle>
+          <DropdownToggle nav caret><i class="fas fa-circle-half-stroke"></i></DropdownToggle>
           <DropdownMenu end>
             <DropdownItem on:click={setDarkMode}><i class="fas fa-moon"></i> Dark</DropdownItem>
             <DropdownItem on:click={setLightMode}><i class="fas fa-sun"></i> Light</DropdownItem>
