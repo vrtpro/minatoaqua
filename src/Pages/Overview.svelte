@@ -27,7 +27,7 @@
           still sometimes awkward and clumsy.
         </p>
         <p>
-          ~<a
+          Source: <a
             href="https://hololive.hololivepro.com/en/talents/minato-aqua"
             class="link-general">Hololive official website</a
           >
