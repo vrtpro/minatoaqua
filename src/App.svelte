@@ -2,7 +2,6 @@
   import Home from './Pages/Home.svelte';
   import Overview from './Pages/Overview.svelte';
   import Information from './Pages/Information.svelte';
-  import Links from './Pages/Links.svelte';
   import Error404 from './Pages/Error404.svelte';
   import router from 'page';
   export let name,
@@ -44,7 +43,6 @@
   router('/', () => (page = Home));
   router('/overview', () => (page = Overview));
   router('/info', () => (page = Information));
-  router('/links', () => (page = Links));
   router('*', () => (page = Error404));
   router.start();
 </script>
