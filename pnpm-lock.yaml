@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@rollup/plugin-commonjs': 22.0.2
-  '@rollup/plugin-node-resolve': 13.3.0
+  '@rollup/plugin-node-resolve': 14.1.0
   '@rollup/plugin-typescript': 8.5.0
   '@tsconfig/svelte': 3.0.0
   page: 1.11.6
@@ -31,7 +31,7 @@ dependencies:
 
 devDependencies:
   '@rollup/plugin-commonjs': 22.0.2_rollup@2.79.1
-  '@rollup/plugin-node-resolve': 13.3.0_rollup@2.79.1
+  '@rollup/plugin-node-resolve': 14.1.0_rollup@2.79.1
   '@rollup/plugin-typescript': 8.5.0_hafrwlgfjmvsm7253l3bfjzhnq
   '@tsconfig/svelte': 3.0.0
   prettier: 2.7.1
@@ -151,11 +151,11 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-node-resolve/13.3.0_rollup@2.79.1:
-    resolution: {integrity: sha512-Lus8rbUo1eEcnS4yTFKLZrVumLPY+YayBdWXgFSHYhTT2iJbMhoaaBL3xl5NCdeRytErGr8tZ0L71BMRmnlwSw==}
+  /@rollup/plugin-node-resolve/14.1.0_rollup@2.79.1:
+    resolution: {integrity: sha512-5G2niJroNCz/1zqwXtk0t9+twOSDlG00k1Wfd7bkbbXmwg8H8dvgHdIWAun53Ps/rckfvOC7scDBjuGFg5OaWw==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
-      rollup: ^2.42.0
+      rollup: ^2.78.0
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.79.1
       '@types/resolve': 1.17.1
