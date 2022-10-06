@@ -4,22 +4,14 @@
 <hr />
 <footer>
   <p class="text-center" id="footer-text">
-    Created by{' '}<a href="https://github.com/gifaldyazkaa">Gifaldy Azka</a
-    >{' '}with
-    {' '}<a href="https://svelte.dev">Svelte</a>
+    Made with ❤️ by <strong>Gifaldy Azka</strong>.
   </p>
 </footer>
 
 <style>
   footer #footer-text {
     font-family: 'Lexend', sans-serif;
+    font-size: 14px;
     padding-bottom: 1rem;
-  }
-  a {
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-    text-decoration-style: dotted;
   }
 </style>
