@@ -142,3 +142,8 @@ button:focus {
     background: #db34eb;
     border-radius: 10px;
 }
+
+/* etc */
+a.dropdown-toggle.nav-link::after {
+    display: none;
+}
