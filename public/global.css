@@ -147,3 +147,9 @@ button:focus {
 a.dropdown-toggle.nav-link::after {
     display: none;
 }
+hr.hr2 {
+    width: 200rem;
+}
+hr.hr2 {
+    width: 140rem;
+}

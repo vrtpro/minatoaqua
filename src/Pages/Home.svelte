@@ -16,13 +16,13 @@
         <NavigationBar />
         <div id="greetings">
           <h1>{greetingsWord.en}</h1>
-          <hr width="200rem" />
+          <hr class="hr1" />
           <p>"{introductionWords}"</p>
           <p>
             I'm virtual idol cat ears marine maid-styled gamer {name.en}~<br
             />I'm from the 2nd generation of Hololive Idol Production~
           </p>
-          <hr width="140rem" />
+          <hr class="hr2" />
           <a
             href="/overview"
             class="btn learn-more"
