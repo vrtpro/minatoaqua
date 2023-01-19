@@ -6,7 +6,7 @@ specifiers:
   '@rollup/plugin-typescript': 11.0.0
   '@tsconfig/svelte': 3.0.0
   page: 1.11.6
-  prettier: 2.8.2
+  prettier: 2.8.3
   rollup: 2.79.1
   rollup-plugin-css-only: 4.3.0
   rollup-plugin-livereload: 2.0.5
@@ -34,7 +34,7 @@ devDependencies:
   '@rollup/plugin-node-resolve': 15.0.1_rollup@2.79.1
   '@rollup/plugin-typescript': 11.0.0_sbiskyiysxhldmns7rmnvoiszu
   '@tsconfig/svelte': 3.0.0
-  prettier: 2.8.2
+  prettier: 2.8.3
   rollup: 2.79.1
   rollup-plugin-css-only: 4.3.0_rollup@2.79.1
   rollup-plugin-livereload: 2.0.5
@@ -688,8 +688,8 @@ packages:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
 
-  /prettier/2.8.2:
-    resolution: {integrity: sha512-BtRV9BcncDyI2tsuS19zzhzoxD8Dh8LiCx7j7tHzrkz8GFXAexeWFdi22mjE1d16dftH2qNaytVxqiRTGlMfpw==}
+  /prettier/2.8.3:
+    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
