@@ -15,11 +15,11 @@ specifiers:
   sass: 1.57.1
   sirv-cli: 2.0.2
   svelte: 3.55.1
-  svelte-check: 3.0.2
+  svelte-check: 3.0.3
   svelte-page-progress: 1.0.1
   svelte-preprocess: 5.0.1
   sveltestrap: 5.10.0
-  tslib: 2.4.1
+  tslib: 2.5.0
   typescript: 4.9.4
 
 dependencies:
@@ -32,7 +32,7 @@ dependencies:
 devDependencies:
   '@rollup/plugin-commonjs': 24.0.1_rollup@2.79.1
   '@rollup/plugin-node-resolve': 15.0.1_rollup@2.79.1
-  '@rollup/plugin-typescript': 11.0.0_sbiskyiysxhldmns7rmnvoiszu
+  '@rollup/plugin-typescript': 11.0.0_bgwi2fgwyi362qsw25gfipc3ca
   '@tsconfig/svelte': 3.0.0
   prettier: 2.8.3
   rollup: 2.79.1
@@ -41,9 +41,9 @@ devDependencies:
   rollup-plugin-svelte: 7.1.0_wqqnxzvosiw4srqlri2xb7asou
   rollup-plugin-terser: 7.0.2_rollup@2.79.1
   svelte: 3.55.1
-  svelte-check: 3.0.2_sass@1.57.1+svelte@3.55.1
+  svelte-check: 3.0.3_sass@1.57.1+svelte@3.55.1
   svelte-preprocess: 5.0.1_feqgtmonqoj7yjk2wjndla2xcu
-  tslib: 2.4.1
+  tslib: 2.5.0
   typescript: 4.9.4
 
 packages:
@@ -171,7 +171,7 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-typescript/11.0.0_sbiskyiysxhldmns7rmnvoiszu:
+  /@rollup/plugin-typescript/11.0.0_bgwi2fgwyi362qsw25gfipc3ca:
     resolution: {integrity: sha512-goPyCWBiimk1iJgSTgsehFD5OOFHiAknrRJjqFCudcW8JtWiBlK284Xnn4flqMqg6YAjVG/EE+3aVzrL5qNSzQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -187,7 +187,7 @@ packages:
       '@rollup/pluginutils': 5.0.2_rollup@2.79.1
       resolve: 1.22.1
       rollup: 2.79.1
-      tslib: 2.4.1
+      tslib: 2.5.0
       typescript: 4.9.4
     dev: true
 
@@ -920,8 +920,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/3.0.2_sass@1.57.1+svelte@3.55.1:
-    resolution: {integrity: sha512-DkhKhV0Jt0gh7q9DBB26+J2Vfb9y4/4JWxnbkXBZha7542LOhwvj3edJFjyJ+xjdaXyInZ+YRRYc3V6wytP2ew==}
+  /svelte-check/3.0.3_sass@1.57.1+svelte@3.55.1:
+    resolution: {integrity: sha512-ByBFXo3bfHRGIsYEasHkdMhLkNleVfszX/Ns1oip58tPJlKdo5Ssr8kgVIuo5oq00hss8AIcdesuy0Xt0BcTvg==}
     hasBin: true
     peerDependencies:
       svelte: ^3.55.0
@@ -1040,8 +1040,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /tslib/2.4.1:
-    resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==}
+  /tslib/2.5.0:
+    resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
     dev: true
 
   /typescript/4.9.4:
