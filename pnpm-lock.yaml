@@ -12,7 +12,7 @@ specifiers:
   rollup-plugin-livereload: 2.0.5
   rollup-plugin-svelte: 7.1.0
   rollup-plugin-terser: 7.0.2
-  sass: 1.57.1
+  sass: 1.58.0
   sirv-cli: 2.0.2
   svelte: 3.55.1
   svelte-check: 3.0.3
@@ -20,11 +20,11 @@ specifiers:
   svelte-preprocess: 5.0.1
   sveltestrap: 5.10.0
   tslib: 2.5.0
-  typescript: 4.9.4
+  typescript: 4.9.5
 
 dependencies:
   page: 1.11.6
-  sass: 1.57.1
+  sass: 1.58.0
   sirv-cli: 2.0.2
   svelte-page-progress: 1.0.1
   sveltestrap: 5.10.0_svelte@3.55.1
@@ -32,7 +32,7 @@ dependencies:
 devDependencies:
   '@rollup/plugin-commonjs': 24.0.1_rollup@2.79.1
   '@rollup/plugin-node-resolve': 15.0.1_rollup@2.79.1
-  '@rollup/plugin-typescript': 11.0.0_bgwi2fgwyi362qsw25gfipc3ca
+  '@rollup/plugin-typescript': 11.0.0_bhcmvni67fkldpaxrtldxbogce
   '@tsconfig/svelte': 3.0.0
   prettier: 2.8.3
   rollup: 2.79.1
@@ -41,10 +41,10 @@ devDependencies:
   rollup-plugin-svelte: 7.1.0_wqqnxzvosiw4srqlri2xb7asou
   rollup-plugin-terser: 7.0.2_rollup@2.79.1
   svelte: 3.55.1
-  svelte-check: 3.0.3_sass@1.57.1+svelte@3.55.1
-  svelte-preprocess: 5.0.1_feqgtmonqoj7yjk2wjndla2xcu
+  svelte-check: 3.0.3_sass@1.58.0+svelte@3.55.1
+  svelte-preprocess: 5.0.1_cjyprvzu4kavkaguwtgkgx5cp4
   tslib: 2.5.0
-  typescript: 4.9.4
+  typescript: 4.9.5
 
 packages:
 
@@ -171,7 +171,7 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-typescript/11.0.0_bgwi2fgwyi362qsw25gfipc3ca:
+  /@rollup/plugin-typescript/11.0.0_bhcmvni67fkldpaxrtldxbogce:
     resolution: {integrity: sha512-goPyCWBiimk1iJgSTgsehFD5OOFHiAknrRJjqFCudcW8JtWiBlK284Xnn4flqMqg6YAjVG/EE+3aVzrL5qNSzQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -188,7 +188,7 @@ packages:
       resolve: 1.22.1
       rollup: 2.79.1
       tslib: 2.5.0
-      typescript: 4.9.4
+      typescript: 4.9.5
     dev: true
 
   /@rollup/pluginutils/5.0.2_rollup@2.79.1:
@@ -824,8 +824,8 @@ packages:
       rimraf: 2.7.1
     dev: true
 
-  /sass/1.57.1:
-    resolution: {integrity: sha512-O2+LwLS79op7GI0xZ8fqzF7X2m/m8WFfI02dHOdsK5R2ECeS5F62zrwg/relM1rjSLy7Vd/DiMNIvPrQGsA0jw==}
+  /sass/1.58.0:
+    resolution: {integrity: sha512-PiMJcP33DdKtZ/1jSjjqVIKihoDc6yWmYr9K/4r3fVVIEDAluD0q7XZiRKrNJcPK3qkLRF/79DND1H5q1LBjgg==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
@@ -920,7 +920,7 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/3.0.3_sass@1.57.1+svelte@3.55.1:
+  /svelte-check/3.0.3_sass@1.58.0+svelte@3.55.1:
     resolution: {integrity: sha512-ByBFXo3bfHRGIsYEasHkdMhLkNleVfszX/Ns1oip58tPJlKdo5Ssr8kgVIuo5oq00hss8AIcdesuy0Xt0BcTvg==}
     hasBin: true
     peerDependencies:
@@ -933,8 +933,8 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 3.55.1
-      svelte-preprocess: 5.0.1_feqgtmonqoj7yjk2wjndla2xcu
-      typescript: 4.9.4
+      svelte-preprocess: 5.0.1_cjyprvzu4kavkaguwtgkgx5cp4
+      typescript: 4.9.5
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
@@ -951,7 +951,7 @@ packages:
     resolution: {integrity: sha512-7gnQ4AuefDLC0JgvBUOqBFa7ltCTBjI8Atx/Mz3kq9P0zEY980ZcY74BFhKHbK9BXmbF0SqfAe6UlMMjYbtCKg==}
     dev: false
 
-  /svelte-preprocess/5.0.1_feqgtmonqoj7yjk2wjndla2xcu:
+  /svelte-preprocess/5.0.1_cjyprvzu4kavkaguwtgkgx5cp4:
     resolution: {integrity: sha512-0HXyhCoc9rsW4zGOgtInylC6qj259E1hpFnJMJWTf+aIfeqh4O/QHT31KT2hvPEqQfdjmqBR/kO2JDkkciBLrQ==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
@@ -993,11 +993,11 @@ packages:
       '@types/sass': 1.43.1
       detect-indent: 6.1.0
       magic-string: 0.27.0
-      sass: 1.57.1
+      sass: 1.58.0
       sorcery: 0.11.0
       strip-indent: 3.0.0
       svelte: 3.55.1
-      typescript: 4.9.4
+      typescript: 4.9.5
     dev: true
 
   /svelte/3.55.1:
@@ -1044,8 +1044,8 @@ packages:
     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
     dev: true
 
-  /typescript/4.9.4:
-    resolution: {integrity: sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==}
+  /typescript/4.9.5:
+    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
