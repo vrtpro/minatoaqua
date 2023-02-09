@@ -6,11 +6,11 @@ specifiers:
   '@rollup/plugin-typescript': 11.0.0
   '@tsconfig/svelte': 3.0.0
   page: 1.11.6
-  prettier: 2.8.3
+  prettier: 2.8.4
   rollup: 2.79.1
   rollup-plugin-css-only: 4.3.0
   rollup-plugin-livereload: 2.0.5
-  rollup-plugin-svelte: 7.1.0
+  rollup-plugin-svelte: 7.1.2
   rollup-plugin-terser: 7.0.2
   sass: 1.58.0
   sirv-cli: 2.0.2
@@ -34,11 +34,11 @@ devDependencies:
   '@rollup/plugin-node-resolve': 15.0.1_rollup@2.79.1
   '@rollup/plugin-typescript': 11.0.0_bhcmvni67fkldpaxrtldxbogce
   '@tsconfig/svelte': 3.0.0
-  prettier: 2.8.3
+  prettier: 2.8.4
   rollup: 2.79.1
   rollup-plugin-css-only: 4.3.0_rollup@2.79.1
   rollup-plugin-livereload: 2.0.5
-  rollup-plugin-svelte: 7.1.0_wqqnxzvosiw4srqlri2xb7asou
+  rollup-plugin-svelte: 7.1.2_wqqnxzvosiw4srqlri2xb7asou
   rollup-plugin-terser: 7.0.2_rollup@2.79.1
   svelte: 3.55.1
   svelte-check: 3.0.3_sass@1.58.0+svelte@3.55.1
@@ -189,6 +189,14 @@ packages:
       rollup: 2.79.1
       tslib: 2.5.0
       typescript: 4.9.5
+    dev: true
+
+  /@rollup/pluginutils/4.2.1:
+    resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==}
+    engines: {node: '>= 8.0.0'}
+    dependencies:
+      estree-walker: 2.0.2
+      picomatch: 2.3.1
     dev: true
 
   /@rollup/pluginutils/5.0.2_rollup@2.79.1:
@@ -364,10 +372,6 @@ packages:
   /escape-string-regexp/1.0.5:
     resolution: {integrity: sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==}
     engines: {node: '>=0.8.0'}
-    dev: true
-
-  /estree-walker/0.6.1:
-    resolution: {integrity: sha512-SqmZANLWS0mnatqbSfRP5g8OXZC12Fgg1IwNtLsyHDzJizORW4khDfjPqJZsemPWBB2uqykUah5YpQ6epsqC/w==}
     dev: true
 
   /estree-walker/2.0.2:
@@ -688,8 +692,8 @@ packages:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
 
-  /prettier/2.8.3:
-    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
+  /prettier/2.8.4:
+    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -709,10 +713,6 @@ packages:
     engines: {node: '>=8.10.0'}
     dependencies:
       picomatch: 2.3.1
-
-  /require-relative/0.8.7:
-    resolution: {integrity: sha512-AKGr4qvHiryxRb19m3PsLRGuKVAbJLUD7E6eOaHkfKhwc+vSgVOCY5xNvm9EkolBKTOf0GrQAZKLimOCz81Khg==}
-    dev: true
 
   /resolve-from/4.0.0:
     resolution: {integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==}
@@ -760,16 +760,15 @@ packages:
       - utf-8-validate
     dev: true
 
-  /rollup-plugin-svelte/7.1.0_wqqnxzvosiw4srqlri2xb7asou:
-    resolution: {integrity: sha512-vopCUq3G+25sKjwF5VilIbiY6KCuMNHP1PFvx2Vr3REBNMDllKHFZN2B9jwwC+MqNc3UPKkjXnceLPEjTjXGXg==}
+  /rollup-plugin-svelte/7.1.2_wqqnxzvosiw4srqlri2xb7asou:
+    resolution: {integrity: sha512-CfU5C4lhVyN80GqtNod4IvsN1nYrcWS3C/T9+gWF+O31e4QwBPo6ubHlLnuQKYVBzC3qIGdERuyrbrvljLfN/A==}
     engines: {node: '>=10'}
     peerDependencies:
       rollup: '>=2.0.0'
       svelte: '>=3.5.0'
     dependencies:
-      require-relative: 0.8.7
+      '@rollup/pluginutils': 4.2.1
       rollup: 2.79.1
-      rollup-pluginutils: 2.8.2
       svelte: 3.55.1
     dev: true
 
@@ -783,12 +782,6 @@ packages:
       rollup: 2.79.1
       serialize-javascript: 4.0.0
       terser: 5.14.1
-    dev: true
-
-  /rollup-pluginutils/2.8.2:
-    resolution: {integrity: sha512-EEp9NhnUkwY8aif6bxgovPHMoMoNr2FulJziTndpt5H9RdwC47GSGuII9XxpSdzVGM0GWrNPHV6ie1LTNJPaLQ==}
-    dependencies:
-      estree-walker: 0.6.1
     dev: true
 
   /rollup/2.79.1:
