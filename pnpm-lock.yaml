@@ -12,7 +12,7 @@ specifiers:
   rollup-plugin-livereload: 2.0.5
   rollup-plugin-svelte: 7.1.2
   rollup-plugin-terser: 7.0.2
-  sass: 1.58.0
+  sass: 1.58.1
   sirv-cli: 2.0.2
   svelte: 3.55.1
   svelte-check: 3.0.3
@@ -24,7 +24,7 @@ specifiers:
 
 dependencies:
   page: 1.11.6
-  sass: 1.58.0
+  sass: 1.58.1
   sirv-cli: 2.0.2
   svelte-page-progress: 1.0.1
   sveltestrap: 5.10.0_svelte@3.55.1
@@ -41,8 +41,8 @@ devDependencies:
   rollup-plugin-svelte: 7.1.2_wqqnxzvosiw4srqlri2xb7asou
   rollup-plugin-terser: 7.0.2_rollup@2.79.1
   svelte: 3.55.1
-  svelte-check: 3.0.3_sass@1.58.0+svelte@3.55.1
-  svelte-preprocess: 5.0.1_cjyprvzu4kavkaguwtgkgx5cp4
+  svelte-check: 3.0.3_sass@1.58.1+svelte@3.55.1
+  svelte-preprocess: 5.0.1_ocw7eppkva45e2bkzk22usbvdq
   tslib: 2.5.0
   typescript: 4.9.5
 
@@ -817,8 +817,8 @@ packages:
       rimraf: 2.7.1
     dev: true
 
-  /sass/1.58.0:
-    resolution: {integrity: sha512-PiMJcP33DdKtZ/1jSjjqVIKihoDc6yWmYr9K/4r3fVVIEDAluD0q7XZiRKrNJcPK3qkLRF/79DND1H5q1LBjgg==}
+  /sass/1.58.1:
+    resolution: {integrity: sha512-bnINi6nPXbP1XNRaranMFEBZWUfdW/AF16Ql5+ypRxfTvCRTTKrLsMIakyDcayUt2t/RZotmL4kgJwNH5xO+bg==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
@@ -913,7 +913,7 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/3.0.3_sass@1.58.0+svelte@3.55.1:
+  /svelte-check/3.0.3_sass@1.58.1+svelte@3.55.1:
     resolution: {integrity: sha512-ByBFXo3bfHRGIsYEasHkdMhLkNleVfszX/Ns1oip58tPJlKdo5Ssr8kgVIuo5oq00hss8AIcdesuy0Xt0BcTvg==}
     hasBin: true
     peerDependencies:
@@ -926,7 +926,7 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 3.55.1
-      svelte-preprocess: 5.0.1_cjyprvzu4kavkaguwtgkgx5cp4
+      svelte-preprocess: 5.0.1_ocw7eppkva45e2bkzk22usbvdq
       typescript: 4.9.5
     transitivePeerDependencies:
       - '@babel/core'
@@ -944,7 +944,7 @@ packages:
     resolution: {integrity: sha512-7gnQ4AuefDLC0JgvBUOqBFa7ltCTBjI8Atx/Mz3kq9P0zEY980ZcY74BFhKHbK9BXmbF0SqfAe6UlMMjYbtCKg==}
     dev: false
 
-  /svelte-preprocess/5.0.1_cjyprvzu4kavkaguwtgkgx5cp4:
+  /svelte-preprocess/5.0.1_ocw7eppkva45e2bkzk22usbvdq:
     resolution: {integrity: sha512-0HXyhCoc9rsW4zGOgtInylC6qj259E1hpFnJMJWTf+aIfeqh4O/QHT31KT2hvPEqQfdjmqBR/kO2JDkkciBLrQ==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
@@ -986,7 +986,7 @@ packages:
       '@types/sass': 1.43.1
       detect-indent: 6.1.0
       magic-string: 0.27.0
-      sass: 1.58.0
+      sass: 1.58.1
       sorcery: 0.11.0
       strip-indent: 3.0.0
       svelte: 3.55.1
