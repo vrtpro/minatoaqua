@@ -10,9 +10,9 @@ specifiers:
   rollup: 2.79.1
   rollup-plugin-css-only: 4.3.0
   rollup-plugin-livereload: 2.0.5
-  rollup-plugin-svelte: 7.1.2
+  rollup-plugin-svelte: 7.1.3
   rollup-plugin-terser: 7.0.2
-  sass: 1.58.1
+  sass: 1.58.2
   sirv-cli: 2.0.2
   svelte: 3.55.1
   svelte-check: 3.0.3
@@ -24,7 +24,7 @@ specifiers:
 
 dependencies:
   page: 1.11.6
-  sass: 1.58.1
+  sass: 1.58.2
   sirv-cli: 2.0.2
   svelte-page-progress: 1.0.1
   sveltestrap: 5.10.0_svelte@3.55.1
@@ -38,11 +38,11 @@ devDependencies:
   rollup: 2.79.1
   rollup-plugin-css-only: 4.3.0_rollup@2.79.1
   rollup-plugin-livereload: 2.0.5
-  rollup-plugin-svelte: 7.1.2_wqqnxzvosiw4srqlri2xb7asou
+  rollup-plugin-svelte: 7.1.3_wqqnxzvosiw4srqlri2xb7asou
   rollup-plugin-terser: 7.0.2_rollup@2.79.1
   svelte: 3.55.1
-  svelte-check: 3.0.3_sass@1.58.1+svelte@3.55.1
-  svelte-preprocess: 5.0.1_ocw7eppkva45e2bkzk22usbvdq
+  svelte-check: 3.0.3_sass@1.58.2+svelte@3.55.1
+  svelte-preprocess: 5.0.1_7kzlenrbaghfjlqig4aiipnrku
   tslib: 2.5.0
   typescript: 4.9.5
 
@@ -719,6 +719,11 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
+  /resolve.exports/2.0.0:
+    resolution: {integrity: sha512-6K/gDlqgQscOlg9fSRpWstA8sYe8rbELsSTNpx+3kTrsVCzvSl0zIvRErM7fdl9ERWDsKnrLnwB+Ne89918XOg==}
+    engines: {node: '>=10'}
+    dev: true
+
   /resolve/1.22.1:
     resolution: {integrity: sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==}
     hasBin: true
@@ -760,14 +765,15 @@ packages:
       - utf-8-validate
     dev: true
 
-  /rollup-plugin-svelte/7.1.2_wqqnxzvosiw4srqlri2xb7asou:
-    resolution: {integrity: sha512-CfU5C4lhVyN80GqtNod4IvsN1nYrcWS3C/T9+gWF+O31e4QwBPo6ubHlLnuQKYVBzC3qIGdERuyrbrvljLfN/A==}
+  /rollup-plugin-svelte/7.1.3_wqqnxzvosiw4srqlri2xb7asou:
+    resolution: {integrity: sha512-kQiZP++PZOObMEZBQcdFdRj0K5ucL496qiYtwo/toFbd8a/1x1gG2kF5yY+PxxYiXUv4S4OVnCd3T02c74TXWQ==}
     engines: {node: '>=10'}
     peerDependencies:
       rollup: '>=2.0.0'
       svelte: '>=3.5.0'
     dependencies:
       '@rollup/pluginutils': 4.2.1
+      resolve.exports: 2.0.0
       rollup: 2.79.1
       svelte: 3.55.1
     dev: true
@@ -817,8 +823,8 @@ packages:
       rimraf: 2.7.1
     dev: true
 
-  /sass/1.58.1:
-    resolution: {integrity: sha512-bnINi6nPXbP1XNRaranMFEBZWUfdW/AF16Ql5+ypRxfTvCRTTKrLsMIakyDcayUt2t/RZotmL4kgJwNH5xO+bg==}
+  /sass/1.58.2:
+    resolution: {integrity: sha512-2mbyOWOv/lhEXD6nVrQZQ4KT2DlwcODbTskM42EyqBAFUWOhiiYtAXZqjZz1ygzapYf+N+2GwfIH9M5FM4GUMg==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
@@ -913,7 +919,7 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/3.0.3_sass@1.58.1+svelte@3.55.1:
+  /svelte-check/3.0.3_sass@1.58.2+svelte@3.55.1:
     resolution: {integrity: sha512-ByBFXo3bfHRGIsYEasHkdMhLkNleVfszX/Ns1oip58tPJlKdo5Ssr8kgVIuo5oq00hss8AIcdesuy0Xt0BcTvg==}
     hasBin: true
     peerDependencies:
@@ -926,7 +932,7 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 3.55.1
-      svelte-preprocess: 5.0.1_ocw7eppkva45e2bkzk22usbvdq
+      svelte-preprocess: 5.0.1_7kzlenrbaghfjlqig4aiipnrku
       typescript: 4.9.5
     transitivePeerDependencies:
       - '@babel/core'
@@ -944,7 +950,7 @@ packages:
     resolution: {integrity: sha512-7gnQ4AuefDLC0JgvBUOqBFa7ltCTBjI8Atx/Mz3kq9P0zEY980ZcY74BFhKHbK9BXmbF0SqfAe6UlMMjYbtCKg==}
     dev: false
 
-  /svelte-preprocess/5.0.1_ocw7eppkva45e2bkzk22usbvdq:
+  /svelte-preprocess/5.0.1_7kzlenrbaghfjlqig4aiipnrku:
     resolution: {integrity: sha512-0HXyhCoc9rsW4zGOgtInylC6qj259E1hpFnJMJWTf+aIfeqh4O/QHT31KT2hvPEqQfdjmqBR/kO2JDkkciBLrQ==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
@@ -986,7 +992,7 @@ packages:
       '@types/sass': 1.43.1
       detect-indent: 6.1.0
       magic-string: 0.27.0
-      sass: 1.58.1
+      sass: 1.58.2
       sorcery: 0.11.0
       strip-indent: 3.0.0
       svelte: 3.55.1
