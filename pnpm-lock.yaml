@@ -4,7 +4,7 @@ specifiers:
   '@rollup/plugin-commonjs': 24.0.1
   '@rollup/plugin-node-resolve': 15.0.1
   '@rollup/plugin-typescript': 11.0.0
-  '@tsconfig/svelte': 3.0.0
+  '@tsconfig/svelte': 4.0.1
   page: 1.11.6
   prettier: 2.8.7
   rollup: 2.79.1
@@ -33,7 +33,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 24.0.1_rollup@2.79.1
   '@rollup/plugin-node-resolve': 15.0.1_rollup@2.79.1
   '@rollup/plugin-typescript': 11.0.0_gta7oowp4j2tir46rvp4skcu5a
-  '@tsconfig/svelte': 3.0.0
+  '@tsconfig/svelte': 4.0.1
   prettier: 2.8.7
   rollup: 2.79.1
   rollup-plugin-css-only: 4.3.0_rollup@2.79.1
@@ -214,8 +214,8 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@tsconfig/svelte/3.0.0:
-    resolution: {integrity: sha512-pYrtLtOwku/7r1i9AMONsJMVYAtk3hzOfiGNekhtq5tYBGA7unMve8RvUclKLMT3PrihvJqUmzsRGh0RP84hKg==}
+  /@tsconfig/svelte/4.0.1:
+    resolution: {integrity: sha512-B+XlGpmuAQzJqDoBATNCvEPqQg0HkO7S8pM14QDI5NsmtymzRexQ1N+nX2H6RTtFbuFgaZD4I8AAi8voGg0GLg==}
     dev: true
 
   /@types/estree/1.0.0:
