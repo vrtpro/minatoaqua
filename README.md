@@ -26,6 +26,6 @@ $ pnpm run dev
 
 ## 📃 License
 
--   Character copyright &copy; 2017-2022 [COVER Corp](https://cover-corp.com).
+-   Character copyright &copy; 2017-2023 [COVER Corp](https://cover-corp.com).
 -   Favicon copyright &copy; 2021 from [Aqua Ch. Membership Badge](https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg/join).
--   [aqua-fanpage](#) is Licensed Under [MIT License](./LICENSE). The code is open-source and free to use, modify, and redistribute. Please have a look at the license and keep in mind about giving appropriate credit where it is due. Thanks.
+-   [aqua-fanpage](#) is Licensed Under [MIT License](./LICENSE). The code is open-source and free to use, modify, and redistribute. Please have a look at the license file and keep in mind about giving appropriate credit where it is due. Thanks.
