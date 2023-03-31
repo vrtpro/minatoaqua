@@ -1,7 +1,7 @@
 {
     "name": "aqua-fanpage",
     "version": "1.4.2",
-    "homepage": "https://aqua.falcxxdev.ml",
+    "homepage": "https://aqua.falcxxdev.cyou",
     "private": true,
     "scripts": {
         "build": "rollup -c",
@@ -14,7 +14,10 @@
         "type": "git",
         "url": "https://github.com/gifaldyazkaa/aqua-fanpage"
     },
-    "author": "Gifaldy Azka <me@falcxxdev.ml>",
+    "author": {
+        "name": "Falcxxdev",
+        "email": "me@falcxxdev.cyou"
+    },
     "license": "MIT",
     "devDependencies": {
         "@rollup/plugin-commonjs": "24.0.1",
