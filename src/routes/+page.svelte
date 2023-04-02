@@ -13,10 +13,9 @@
 					Minato Aqua 湊あくあ
 				</h1>
 				<p class="text-base my-3 text-center">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, non, consequuntur, earum
-					eligendi labore dolor maiores cupiditate numquam maxime nesciunt repellendus. Reprehenderit nam
-					accusantium eos eius, corrupti ab cumque consectetur itaque eligendi, voluptatum esse ut minima
-					exercitationem rem nemo ipsa.
+					A-quality day to one and all, I'm Minato Aqua!
+					<br />
+					A marine maid-styled virtual maid. I am trying my best, yet is still sometimes awkward and clumsy.
 				</p>
 				<a
 					href="/about"
