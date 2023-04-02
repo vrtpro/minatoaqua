@@ -29,7 +29,7 @@
 			<img
 				src="/sveltekit_assets/aqua-portrait.webp"
 				alt="Model"
-				class="h-[35rem] w-auto m-auto pointer-events-none"
+				class="w-auto m-auto pointer-events-none"
 				height="0"
 				width="0"
 			/>
@@ -38,7 +38,7 @@
 			<img
 				src="/sveltekit_assets/aqua-portrait.webp"
 				alt="Model"
-				class="w-auto m-auto pointer-events-none"
+				class="h-[35rem] w-auto m-auto pointer-events-none"
 				height="0"
 				width="0"
 			/>
