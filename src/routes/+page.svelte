@@ -20,7 +20,11 @@
 				<a
 					href="/about"
 					class="btn table bg-gradient-to-r from-[#070d2b] to-[#151b4c] p-2 px-6 m-auto text-white rounded-lg hover:translate-x-3 transition-all"
-					>Discover more <Icon icon="material-symbols:arrow-right-alt-rounded" class="inline-block" /></a
+					>Discover more <Icon
+						icon="material-symbols:arrow-right-alt-rounded"
+						width="1.3rem"
+						class="inline-block"
+					/></a
 				>
 			</div>
 		</div>
