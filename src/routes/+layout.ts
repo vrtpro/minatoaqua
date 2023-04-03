@@ -1,6 +1,4 @@
-import type { PageLoadEvent } from './$types';
-
-export const load = ({ url }: PageLoadEvent) => {
+export const load = ({ url }) => {
 	const { pathname } = url;
 
 	return { pathname };
