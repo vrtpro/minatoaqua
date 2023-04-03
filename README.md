@@ -1,38 +1,32 @@
-# create-svelte
+[![Project card](https://cdn.upload.systems/uploads/uBOxBZYG.png)](https://aqua.falcxxdev.ml)
+![Vercel Status](https://img.shields.io/github/deployments/gifaldyazkaa/aqua-fanpage/Production?label=Vercel&logo=vercel&logoColor=black&style=for-the-badge) ![CI Status](https://img.shields.io/github/actions/workflow/status/gifaldyazkaa/aqua-fanpage/Format-checking.yml?branch=master&label=CI&logo=github-actions&style=for-the-badge) ![Repo Size](https://img.shields.io/github/repo-size/gifaldyazkaa/aqua-fanpage?logo=github&style=for-the-badge)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## ➡️ Developing
 
-## Creating a project
+### 🛠️ Requirements
 
-If you're seeing this, you've probably already done this step. Congrats!
+A node.js >= 16.12.0 setup with [pnpm](https://pnpm.io) is recommended.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+### 📦 Install dependencies
 
-# create a new project in my-app
-npm create svelte@latest my-app
+```sh
+$ pnpm install
 ```
 
-## Developing
+### 🚀 Start development server
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```sh
+$ pnpm run dev
+#
+#  VITE v4.x.x  ready in xx ms
+#
+#  ➜  Local:   http://localhost:5173/
+#  ➜  Network: http://[local_ip]:5173/
+#  ➜  press h to show help
 ```
 
-## Building
+## 📃 License
 
-To create a production version of your app:
+Her model image & information data is gathered from [Fandom wiki](https://virtualyoutuber.fandom.com/wiki/Minato_Aqua). Anything else is from internet, and I do not claim any assets here, credits are to the rightful owner.
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Source code is distributed under licensed under MIT License. See [LICENSE](./LICENSE) for more information.
