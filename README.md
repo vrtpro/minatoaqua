@@ -18,14 +18,15 @@ $ pnpm install
 ```sh
 $ pnpm run dev
 #
-#   Your application is ready~! 🚀
+#  VITE v4.x.x  ready in xx ms
 #
-#   - Local:      http://0.0.0.0:8080
-#   - Network:    http://[hostname]:8080
+#  ➜  Local:   http://localhost:5173/
+#  ➜  Network: http://[local_ip]:5173/
+#  ➜  press h to show help
 ```
 
 ## 📃 License
 
--   Character copyright &copy; 2017-2023 [COVER Corp](https://cover-corp.com).
--   Favicon copyright &copy; 2021 from [Aqua Ch. Membership Badge](https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg/join).
--   [aqua-fanpage](#) is Licensed Under [MIT License](./LICENSE). The code is open-source and free to use, modify, and redistribute. Please have a look at the license file and keep in mind about giving appropriate credit where it is due. Thanks.
+Her model image & information data is gathered from [Fandom wiki](https://virtualyoutuber.fandom.com/wiki/Minato_Aqua). Anything else is from internet, and I do not claim any assets here, credits are to the rightful owner.
+
+Source code is distributed under licensed under MIT License. See [LICENSE](./LICENSE) for more information.

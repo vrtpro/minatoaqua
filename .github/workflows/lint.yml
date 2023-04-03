@@ -1,4 +1,4 @@
-name: '[Lint] Linter Checking'
+name: 'Lint'
 on:
     push:
         branches:
@@ -43,5 +43,5 @@ jobs:
             - name: Install dependencies
               run: pnpm install
 
-            - name: Check Format
-              run: pnpm run check
+            - name: Check format
+              run: pnpm lint
