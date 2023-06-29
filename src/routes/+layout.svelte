@@ -21,8 +21,8 @@
 {#key data.pathname}
 	<div
 		class="container mx-auto p-4 font-lexend"
-		in:fly={{ easing: cubicOut, y: 10, duration: 300, delay: 400 }}
-		out:fly={{ easing: cubicIn, y: -10, duration: 300 }}
+		in:fly|global={{ easing: cubicOut, y: 10, duration: 300, delay: 400 }}
+		out:fly|global={{ easing: cubicIn, y: -10, duration: 300 }}
 	>
 		<slot />
 	</div>
