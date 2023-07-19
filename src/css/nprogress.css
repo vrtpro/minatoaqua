@@ -22,7 +22,8 @@
 	right: 0px;
 	width: 100px;
 	height: 100%;
-	box-shadow: 0 0 10px linear-gradient(to right, #4c27b3, #2e59f9),
+	box-shadow:
+		0 0 10px linear-gradient(to right, #4c27b3, #2e59f9),
 		0 0 5px linear-gradient(to right, #4c27b3, #2e59f9);
 	opacity: 1;
 
