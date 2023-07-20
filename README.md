@@ -1,4 +1,4 @@
-[![Project card](https://cdn.upload.systems/uploads/uBOxBZYG.png)](https://aqua.falcxxdev.ml)
+[![Project card](https://cdn.upload.systems/uploads/HoopGRRJ.webp)](https://aqua.falcxxdev.cyou)
 ![Vercel Status](https://img.shields.io/github/deployments/gifaldyazkaa/aqua-fanpage/Production?label=Vercel&logo=vercel&logoColor=black&style=for-the-badge) ![CI Status](https://img.shields.io/github/actions/workflow/status/gifaldyazkaa/aqua-fanpage/check.yml?branch=master&label=CI&logo=github-actions&style=for-the-badge) ![Repo Size](https://img.shields.io/github/repo-size/gifaldyazkaa/aqua-fanpage?logo=github&style=for-the-badge)
 
 ## ➡️ Developing
