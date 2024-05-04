@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@iconify/svelte':
-    specifier: 3.1.4
-    version: 3.1.4(svelte@4.2.2)
+    specifier: 4.0.2
+    version: 4.0.2(svelte@4.2.2)
   '@sveltejs/adapter-netlify':
     specifier: 2.0.8
     version: 2.0.8(@sveltejs/kit@1.27.2)
@@ -273,10 +273,10 @@ packages:
     resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
     dev: true
 
-  /@iconify/svelte@3.1.4(svelte@4.2.2):
-    resolution: {integrity: sha512-YDwQlN46ka8KPRayDb7TivmkAPizfTXi6BSRNqa1IV0+byA907n8JcgQafA7FD//pW5XCuuAhVx6uRbKTo+CfA==}
+  /@iconify/svelte@4.0.2(svelte@4.2.2):
+    resolution: {integrity: sha512-6BSrU85FzGfhQD3bTXpnkCCvBAglEt8T9QednVnXAYm4C+d3464y+pYMzhQNJm5mPId2cuiw+2wXlDflXllHDw==}
     peerDependencies:
-      svelte: '*'
+      svelte: '>4.0.0'
     dependencies:
       '@iconify/types': 2.0.0
       svelte: 4.2.2
